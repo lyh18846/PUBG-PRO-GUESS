@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <script src="./js/theme.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#F5F6F8">
+        <title>PUBG猜选手 - PCL专属版</title>
+        <link rel="stylesheet" href="./css/local.css">
+        <link rel="stylesheet" href="./css/immersive.css">
+        <link rel="stylesheet" href="./css/music.css">
+        <link rel="stylesheet" href="./css/mobile.css">
+        <link rel="stylesheet" href="./css/navigation.css">
+        <link rel="stylesheet" href="./css/workspace.css">
+        <script src="./js/navigation.js" blocking="render"></script>
+        <script src="./js/mobile.js" defer></script>
+        <script src="./js/music.js" defer></script>
+        <script src="./js/preferences.js" defer></script>
+    </head>
+    <body class="game-page" data-game-mode="pcl">
+        <header class="top-header-bar">
+            <div class="header-inner">
+                <a class="header-left" href="index.html" aria-label="明一把，返回猜选手"><span class="brand-icon"><svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3"/></svg></span><span class="header-title">明一把<span class="brand-caption">PUBG PROGUESS</span></span></a>
+                <div class="header-right">
+                    <nav class="site-nav" aria-label="主导航">
+                        <a href="index.html" class="nav-btn-capsule is-current" title="猜选手" aria-current="page"><svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="4"/><path d="M7 12h4m-2-2v4m7-3h.01m2 3h.01"/></svg><span>猜选手</span></a><a href="search.html" class="nav-btn-capsule" title="选手资料"><svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><span>选手资料</span></a><a href="kd.html" class="nav-btn-capsule" title="赛事数据"><svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4v16h16M9 15v-4m5 4V7m5 8v-6"/></svg><span>赛事数据</span></a>
+                    <a href="grid-game.html" class="nav-btn-capsule" title="选手九宫格"><svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M9 3v18m6-18v18M3 9h18M3 15h18"/></svg><span>选手九宫格</span></a></nav>
+                </div>
+            </div>
+        </header>
+        <main class="app-main">
+            <section class="page-heading">
+                <div>
+                    <p class="eyebrow">
+                        一点电竞知识 · 一场推理挑战
+                    </p>
+                    <h1>
+                        PUBG猜选手 - PCL专属版
+                    </h1>
+                    <p class="page-subtitle">
+                        每一次猜测，都离答案更近一点。
+                    </p>
+                </div>
+                <nav class="mode-tabs" aria-label="游戏模式">
+                    <a href="index.html"><svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c5 5 5 13 0 18-5-5-5-13 0-18Z"/></svg>全明星版</a><a href="pcl.html" class="is-active" aria-current="page"><svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 3h8v6a4 4 0 0 1-8 0V3Zm4 10v6m-4 2h8M8 5H4v3a4 4 0 0 0 4 4m8-7h4v3a4 4 0 0 1-4 4"/></svg>PCL 专属</a>
+                </nav>
+            </section>
+            <div class="game-layout">
+                <section class="game-panel" aria-label="猜选手游戏">
+                    <div class="panel-heading">
+                        <span class="panel-title"><svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3"/></svg>本局挑战</span><span class="round-tag"><span></span>8 次机会，找到那位选手</span>
+                    </div>
+                    <div class="stats-strip" aria-label="游戏状态">
+                        <div class="stat-item">
+                            <span class="stat-icon blue"><svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3"/></svg></span>
+                            <div>
+                                <span class="stat-label">猜测次数</span><span class="stat-value"><strong id="guess-count">0</strong><span class="stat-denominator"> / 8</span></span>
+                            </div>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-icon mint"><svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 3h8v6a4 4 0 0 1-8 0V3Zm4 10v6m-4 2h8M8 5H4v3a4 4 0 0 0 4 4m8-7h4v3a4 4 0 0 1-4 4"/></svg></span>
+                            <div>
+                                <span class="stat-label">累计胜利</span><span class="stat-value"><strong id="win-count">0</strong></span>
+                            </div>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-icon lilac"><svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m13 3-8 11h6l-1 7 9-12h-6l1-6Z"/></svg></span>
+                            <div>
+                                <span class="stat-label">当前连胜</span><span class="stat-value"><strong id="streak-count">0</strong></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="board-area">
+                        <div class="board-toolbar">
+                            <h2>
+                                你的猜测
+                            </h2>
+                            <div class="color-legend" aria-label="线索颜色">
+                                <span><i class="legend-dot green-dot"></i>正确</span><span><i class="legend-dot yellow-dot"></i>接近</span><span><i class="legend-dot grey-dot"></i>不同</span>
+                            </div>
+                        </div>
+                        <div id="game-empty" class="game-empty">
+                            <div class="clue-illustration" aria-hidden="true">
+                                <span class="clue-orbit orbit-one"></span><span class="clue-orbit orbit-two"></span><span class="clue-tile tile-left"><svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c5 5 5 13 0 18-5-5-5-13 0-18Z"/></svg></span><span class="mystery-card"><span class="mystery-avatar"><svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21v-2a8 8 0 0 1 16 0v2"/></svg></span><span class="mystery-id">? ? ?</span><span class="mystery-line"></span></span><span class="clue-tile tile-right"><svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 3h8v6a4 4 0 0 1-8 0V3Zm4 10v6m-4 2h8M8 5H4v3a4 4 0 0 0 4 4m8-7h4v3a4 4 0 0 1-4 4"/></svg></span><span class="illustration-dot dot-one"></span><span class="illustration-dot dot-two"></span>
+                            </div>
+                            <h3>
+                                第一条线索，来自你的第一猜
+                            </h3>
+                            <p>
+                                选一位你熟悉的选手，看看哪些属性与答案相同。
+                            </p>
+                        </div>
+                        <div class="history-scroll" tabindex="0" role="region" aria-label="猜测记录，可左右滚动">
+                            <div id="history-container">
+                            </div>
+                        </div>
+                        <p class="mobile-scroll-hint">
+                            左右滑动，查看完整属性线索
+                        </p>
+                    </div>
+                    <div class="guess-composer">
+                        <label for="player-input">你觉得是哪位选手？</label>
+                        <div class="input-area">
+                            <div class="input-wrapper">
+                                <span class="input-icon"><svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg></span><input type="text" id="player-input" disabled aria-label="选手 ID" placeholder="输入选手 ID，例如 MMing" autocomplete="off">
+                                <div id="autocomplete-list" class="autocomplete-items">
+                                </div>
+                            </div>
+                            <button id="submit-btn" class="primary-button" disabled onclick="submitGuess()">提交猜测<svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></button>
+                        </div>
+                        <div class="composer-meta">
+                            <span>支持 ID、战队或国籍联想</span><span><kbd>Enter</kbd> 提交</span>
+                        </div>
+                        <p id="game-status" class="game-status" role="status" aria-live="polite">
+                            正在加载选手库…
+                        </p>
+                    </div>
+                </section>
+                <aside class="game-sidebar">
+                    <details class="guide-disclosure"><summary>玩法与规则</summary>
+                    <section class="guide-section">
+                        <h2>
+                            <svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 4 2c-1 .5-1.5 1-1.5 2m0 3h.01"/></svg>一点游戏指南
+                        </h2>
+                        <ol class="guide-steps">
+                            <li>
+                                <span class="step-number">01</span>
+                                <div>
+                                    <h3>
+                                        先猜一位选手
+                                    </h3>
+                                    <p>
+                                        从你熟悉的 ID 开始，获得第一组线索。
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="step-number">02</span>
+                                <div>
+                                    <h3>
+                                        读懂颜色和箭头
+                                    </h3>
+                                    <p>
+                                        绿色相同，黄色接近，灰色不同。<br><strong>↑</strong> 答案更大，<strong>↓</strong> 答案更小。
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="step-number">03</span>
+                                <div>
+                                    <h3>
+                                        缩小范围，锁定答案
+                                    </h3>
+                                    <p>
+                                        结合国籍、战队和参赛经历，在 8 次机会内猜中。
+                                    </p>
+                                </div>
+                            </li>
+                        </ol>
+                        <details class="rules-detail">
+                            <summary>
+                                接近范围与数据口径<svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>
+                            </summary>
+                            <div>
+                                <p>
+                                    年龄相差 1–3 岁、PGC 出场相差 1–2 次、世界冠军数相差 1 次时为黄色。国籍不同但赛区相同，也为黄色。
+                                </p>
+                                <p>
+                                    退役选手的战队为最后效力战队 世界冠军只包括FGS PGI PNC PGC PGI.S PGS EWC GOTF(不包括周冠)
+                                </p>
+                            </div>
+                        </details>
+                    </section>
+                    </details>
+                    <div class="session-actions">
+                        <button id="restart-btn" disabled class="action-btn restart" onclick="startNewRound()"><svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11a8 8 0 1 1 2 6M4 5v6h6"/></svg>重新开始</button><button id="reveal-btn" disabled class="action-btn reveal" onclick="revealAnswer()"><svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg>查看答案</button>
+                        <p>
+                            查看答案将结束当前对局。
+                        </p>
+                    </div>
+                </aside>
+            </div>
+        </main>
+        <footer class="app-footer">
+            <span>一点线索，一点灵感。</span><span class="credit-note">由 <a href="https://space.bilibili.com/35515344?spm_id_from=333.1007.0.0" target="_blank" rel="noopener noreferrer" class="credit-link">B站@VG天禄进冠军组就改名</a> 制作</span>
+        </footer>
+        <div id="game-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-describedby="modal-description">
+            <div class="modal-box">
+                <span class="modal-emblem" aria-hidden="true"><svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3"/></svg></span>
+                <h2 id="modal-title">
+                </h2>
+                <p id="modal-description" class="modal-text">
+                </p>
+                <button class="primary-button" onclick="closeModal()">确定</button>
+            </div>
+        </div>
+        <script src="./js/utils.js"></script>
+        <script src="./js/storage.js"></script>
+        <script src="./js/core.js"></script>
+        <script src="./js/render.js"></script>
+        <script>window.onload = initGame;</script>
+    </body>
+</html>

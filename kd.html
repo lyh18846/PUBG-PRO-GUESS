@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <script src="./js/theme.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#F5F6F8">
+        <title>PUBG 2026 世界赛数据</title>
+        <link rel="stylesheet" href="./css/local.css">
+        <link rel="stylesheet" href="./css/immersive.css">
+        <link rel="stylesheet" href="./css/music.css">
+        <link rel="stylesheet" href="./css/mobile.css">
+        <link rel="stylesheet" href="./css/navigation.css">
+        <link rel="stylesheet" href="./css/workspace.css">
+        <script src="./js/navigation.js" blocking="render"></script>
+        <script src="./js/mobile.js" defer></script>
+        <script src="./js/music.js" defer></script>
+        <script src="./js/preferences.js" defer></script>
+    </head>
+    <body class="data-page">
+        <header class="top-header-bar">
+            <div class="header-inner">
+                <a class="header-left" href="index.html" aria-label="明一把，返回猜选手"><span class="brand-icon"><svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3"/></svg></span><span class="header-title">明一把<span class="brand-caption">PUBG PROGUESS</span></span></a>
+                <div class="header-right">
+                    <nav class="site-nav" aria-label="主导航">
+                        <a href="index.html" class="nav-btn-capsule" title="猜选手"><svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="4"/><path d="M7 12h4m-2-2v4m7-3h.01m2 3h.01"/></svg><span>猜选手</span></a><a href="search.html" class="nav-btn-capsule" title="选手资料"><svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><span>选手资料</span></a><a href="kd.html" class="nav-btn-capsule is-current" title="赛事数据" aria-current="page"><svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4v16h16M9 15v-4m5 4V7m5 8v-6"/></svg><span>赛事数据</span></a>
+                    <a href="grid-game.html" class="nav-btn-capsule" title="选手九宫格"><svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M9 3v18m6-18v18M3 9h18M3 15h18"/></svg><span>选手九宫格</span></a></nav>
+                </div>
+            </div>
+        </header>
+        <main class="app-main">
+            <section class="page-heading">
+                <div>
+                    <p class="eyebrow">
+                        用数据回看赛场表现
+                    </p>
+                    <h1>
+                        2026 世界赛数据
+                    </h1>
+                    <p class="page-subtitle">
+                        决赛选手表现，一目了然。
+                    </p>
+                </div>
+                <a class="text-link" href="index.html">返回猜选手 <svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a>
+            </section>
+            <section class="data-panel">
+                <div class="data-panel-heading">
+                    <div>
+                        <h2>
+                            选手数据一览
+                        </h2>
+                        <p>
+                            仅展示本地选手库收录的部分选手
+                        </p>
+                    </div>
+                    <span class="data-badge"><svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4v16h16M9 15v-4m5 4V7m5 8v-6"/></svg>2026 赛季</span>
+                </div>
+                <div class="kd-toolbar">
+                    <label class="kd-search-wrap"><span class="input-icon"><svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg></span><input type="text" id="kd-search" class="kd-search" aria-label="搜索选手或战队" placeholder="搜索选手或战队" autocomplete="off"></label><select id="kd-team" class="kd-select" aria-label="战队筛选"></select><button id="kd-clear" class="kd-btn"><svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11a8 8 0 1 1 2 6M4 5v6h6"/></svg>重置</button><span id="kd-count" class="kd-count" role="status" aria-live="polite"></span>
+                </div>
+                <div class="stat-wrap" tabindex="0" role="region" aria-label="赛事数据表，可左右滚动">
+                    <table class="kd-table">
+                        <colgroup>
+                            <col style="width:20%"><col style="width:15%"><col style="width:12%">
+                            <col style="width:14%"><col style="width:11%"><col style="width:17%"><col style="width:11%">
+                        </colgroup>
+                        <thead>
+                        </thead>
+                        <tbody id="kd-body">
+                        </tbody>
+                    </table>
+                    <div id="kd-empty" class="kd-empty" style="display:none;">
+                        没有符合条件的数据
+                    </div>
+                </div>
+                <div class="data-footnote">
+                    <span><i class="legend-dot blue-dot"></i>点击表头排序 · 手机可左右滑动</span><span class="fire-legend">火力值前 20 名的 KD 与场均伤害以重点色标示</span>
+                </div>
+            </section>
+            <details class="rules-detail data-definition">
+                <summary>
+                    统计口径说明<svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>
+                </summary>
+                <div>
+                    <p>
+                        国际 KD 按总淘汰 ÷ 国际场次统计。火力值综合选手 KD、场均伤害与参加决赛场次，沿用现有数据中的数值。
+                    </p>
+                </div>
+            </details>
+        </main>
+        <footer class="app-footer">
+            <span>一点线索，一点灵感。</span><span class="credit-note">由 <a href="https://space.bilibili.com/35515344?spm_id_from=333.1007.0.0" target="_blank" rel="noopener noreferrer" class="credit-link">B站@VG天禄进冠军组就改名</a> 制作</span>
+        </footer>
+        <script src="./js/utils.js"></script>
+        <script src="./js/kd.js"></script>
+    </body>
+</html>

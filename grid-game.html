@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <script src="./js/theme.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#F5F6F8">
+        <title>选手九宫格 - 明一把</title>
+        <link rel="stylesheet" href="./css/local.css">
+        <link rel="stylesheet" href="./css/immersive.css">
+        <link rel="stylesheet" href="./css/music.css">
+        <link rel="stylesheet" href="./css/mobile.css">
+        <link rel="stylesheet" href="./css/navigation.css">
+        <link rel="stylesheet" href="./css/workspace.css">
+        <script src="./js/navigation.js" blocking="render"></script>
+        <script src="./js/mobile.js" defer></script>
+        <script src="./js/music.js" defer></script>
+        <script src="./js/preferences.js" defer></script>
+    <link rel="stylesheet" href="./css/grid.css"><script src="./js/grid-embed.js" defer></script></head>
+    <body class="grid-page">
+        <header class="top-header-bar">
+            <div class="header-inner">
+                <a class="header-left" href="index.html" aria-label="明一把，返回猜选手"><span class="brand-icon"><svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3"/></svg></span><span class="header-title">明一把<span class="brand-caption">PUBG PROGUESS</span></span></a>
+                <div class="header-right">
+                    <nav class="site-nav" aria-label="主导航">
+                        <a href="index.html" class="nav-btn-capsule" title="猜选手"><svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="4"/><path d="M7 12h4m-2-2v4m7-3h.01m2 3h.01"/></svg><span>猜选手</span></a><a href="search.html" class="nav-btn-capsule" title="选手资料"><svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><span>选手资料</span></a><a href="kd.html" class="nav-btn-capsule" title="赛事数据"><svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4v16h16M9 15v-4m5 4V7m5 8v-6"/></svg><span>赛事数据</span></a>
+                    <a href="grid-game.html" class="nav-btn-capsule is-current" aria-current="page" title="选手九宫格"><svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M9 3v18m6-18v18M3 9h18M3 15h18"/></svg><span>选手九宫格</span></a></nav>
+                </div>
+            </div>
+        </header>
+
+        <main class="app-main" aria-label="选手九宫格">
+            <header class="grid-heading"><div><h1>选手九宫格</h1><p>九个名字，拼出你的 PUBG 版图。</p></div><a class="text-link" href="./grid/index.html" target="_blank" rel="noopener">独立打开 <span aria-hidden="true">↗</span></a></header>
+            <section class="grid-stage" aria-label="九宫格游戏区">
+                <div id="grid-loading" class="grid-loading" role="status"><p id="grid-loading-text">正在准备九宫格…</p><button id="grid-retry" class="secondary-button" hidden>重新载入</button></div>
+                <iframe id="grid-frame" title="PUBG 选手九宫格：转会挑战" src="./grid/index.html?embedded=1"></iframe>
+            </section>
+        </main>
+    </body>
+</html>

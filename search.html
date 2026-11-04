@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <script src="./js/theme.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#F5F6F8">
+        <title>PUBG选手查询数据库</title>
+        <link rel="stylesheet" href="./css/local.css">
+        <link rel="stylesheet" href="./css/immersive.css">
+        <link rel="stylesheet" href="./css/music.css">
+        <link rel="stylesheet" href="./css/mobile.css">
+        <link rel="stylesheet" href="./css/navigation.css">
+        <link rel="stylesheet" href="./css/workspace.css">
+        <script src="./js/navigation.js" blocking="render"></script>
+        <script src="./js/mobile.js" defer></script>
+        <script src="./js/music.js" defer></script>
+        <script src="./js/preferences.js" defer></script>
+    </head>
+    <body class="search-page">
+        <header class="top-header-bar">
+            <div class="header-inner">
+                <a class="header-left" href="index.html" aria-label="明一把，返回猜选手"><span class="brand-icon"><svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3"/></svg></span><span class="header-title">明一把<span class="brand-caption">PUBG PROGUESS</span></span></a>
+                <div class="header-right">
+                    <nav class="site-nav" aria-label="主导航">
+                        <a href="index.html" class="nav-btn-capsule" title="猜选手"><svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="4"/><path d="M7 12h4m-2-2v4m7-3h.01m2 3h.01"/></svg><span>猜选手</span></a><a href="search.html" class="nav-btn-capsule is-current" title="选手资料" aria-current="page"><svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><span>选手资料</span></a><a href="kd.html" class="nav-btn-capsule" title="赛事数据"><svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4v16h16M9 15v-4m5 4V7m5 8v-6"/></svg><span>赛事数据</span></a>
+                    <a href="grid-game.html" class="nav-btn-capsule" title="选手九宫格"><svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M9 3v18m6-18v18M3 9h18M3 15h18"/></svg><span>选手九宫格</span></a></nav>
+                </div>
+            </div>
+        </header>
+        <main class="app-main">
+            <section class="page-heading">
+                <div>
+                    <p class="eyebrow">
+                        认识赛场上的每一位主角
+                    </p>
+                    <h1>
+                        选手资料
+                    </h1>
+                    <p class="page-subtitle">
+                        从一个 ID 出发，了解选手的战队、履历与荣誉。
+                    </p>
+                </div>
+                <a class="text-link" href="index.html">返回猜选手 <svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a>
+            </section>
+            <section class="search-panel">
+                <div class="bottom-search-area">
+                    <label class="field-label" for="search-input">查找选手</label>
+                    <div class="input-area">
+                        <div class="input-wrapper">
+                            <span class="input-icon"><svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg></span><input type="text" id="search-input" disabled aria-label="选手查询条件" placeholder="输入 ID、国籍、赛区、战队或 pgc:2" autocomplete="off">
+                            <div id="autocomplete-list" class="autocomplete-items">
+                            </div>
+                        </div>
+                        <button id="search-btn" class="primary-button" disabled onclick="executeSearch()">查询</button>
+                    </div>
+                    <p id="search-status" class="search-status" role="status" aria-live="polite">
+                    </p>
+                </div>
+                <div id="search-placeholder" class="placeholder-box">
+                    <span class="placeholder-icon"><svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg></span>
+                    <h2>
+                        找到你想了解的选手
+                    </h2>
+                    <p>
+                        试试选手 ID、战队或国籍，匹配的选手资料会显示在这里。
+                    </p>
+                    <span class="search-example">按 PGC 次数查询：<code>pgc:2</code></span>
+                </div>
+                <div id="search-result-container" style="display: none;">
+                </div>
+            </section>
+        </main>
+        <footer class="app-footer">
+            <span>一点线索，一点灵感。</span><span class="credit-note">由 <a href="https://space.bilibili.com/35515344?spm_id_from=333.1007.0.0" target="_blank" rel="noopener noreferrer" class="credit-link">B站@VG天禄进冠军组就改名</a> 制作</span>
+        </footer>
+        <script src="./js/utils.js"></script>
+        <script src="./js/search.js"></script>
+        <script>window.onload = initSearch;</script>
+    </body>
+</html>
