@@ -1,0 +1,538 @@
+/* An optional immersive skin. All rules are scoped; the soft desktop skin stays intact. */
+html[data-style="immersive"] {
+    color-scheme: dark;
+    --c-page2: #000000;
+    --surface: #121212;
+    --surface-soft: #1F1F1F;
+    --surface-muted: #202020;
+    --surface-hover: #2A2A2A;
+    --t-strong: #F5F5F5;
+    --t-body: #DEDEDE;
+    --t-normal: #CECECE;
+    --t-mid: #C4C4C4;
+    --t-muted: #B3B3B3;
+    --t-faint: #AAAAAA;
+    --t-on-color: #07160D;
+    --ln-soft: #282828;
+    --ln-strong: #414141;
+    --ln-faint: #242424;
+    --a-accent: #1ED760;
+    --a-accent-hover: #3BE477;
+    --a-accent-ink: #1ED760;
+    --blue-soft: #193023;
+    --mint-soft: #193326;
+    --mint-ink: #A3D9B6;
+    --lilac-soft: #2B2432;
+    --lilac-ink: #CDBBDD;
+    --yellow-soft: #362E1B;
+    --yellow-ink: #E3CD95;
+    --rose-soft: #302124;
+    --rose-ink: #DBB1B7;
+    --s-ok: #1ED760;
+    --s-warn: #E3CD95;
+    --s-off: #B3B3B3;
+    --lime: #1ED760;
+    --lime-ink: #07160D;
+    --shadow-panel: none;
+    --shadow-popover: 0 14px 36px rgba(0, 0, 0, .35);
+}
+
+/* Neutral navigation and a single, contained atmosphere around the title. */
+html[data-style="immersive"] .top-header-bar {
+    background: #000000;
+    border-bottom: 0;
+}
+
+html[data-style="immersive"] .header-inner {
+    max-width: 1344px;
+    min-height: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+html[data-style="immersive"] .brand-icon {
+    background: #1F1F1F;
+    color: #1ED760;
+    border-radius: 50%;
+}
+
+html[data-style="immersive"] .brand-caption {
+    color: #B3B3B3;
+}
+
+html[data-style="immersive"] .nav-btn-capsule,
+html[data-style="immersive"] .theme-toggle-btn {
+    border-radius: 999px;
+    border-color: transparent;
+    background: #1F1F1F;
+    color: #B3B3B3;
+}
+
+html[data-style="immersive"] .nav-btn-capsule:hover,
+html[data-style="immersive"] .theme-toggle-btn:hover {
+    background: #2A2A2A;
+    color: #F5F5F5;
+}
+
+html[data-style="immersive"] .nav-btn-capsule.is-current {
+    background: #2A2A2A;
+    color: #FFFFFF;
+}
+
+html[data-style="immersive"] .preferences-trigger[aria-expanded="true"] {
+    color: #F5F5F5;
+    border-color: #575757;
+}
+
+html[data-style="immersive"] .app-main {
+    width: min(100%, 1344px);
+    padding: 8px 40px 24px;
+}
+
+html[data-style="immersive"] .page-heading {
+    min-height: 170px;
+    padding: 30px 28px;
+    border-radius: 12px;
+    margin-bottom: 16px;
+    background: radial-gradient(ellipse at 12% 0%, #284535 0%, #1A2C22 32%, #121212 76%);
+}
+
+html[data-style="immersive"] h1 {
+    font-size: clamp(28px, 3vw, 40px);
+    font-weight: 780;
+    letter-spacing: -1px;
+    line-height: 1.25;
+}
+
+html[data-style="immersive"] .eyebrow {
+    color: #D0DCD4;
+    font-size: 12px;
+    letter-spacing: .7px;
+    margin-bottom: 10px;
+}
+
+html[data-style="immersive"] .page-subtitle {
+    color: #B3BFB7;
+    margin-top: 10px;
+}
+
+html[data-style="immersive"] .mode-tabs {
+    background: transparent;
+    border: 0;
+    padding: 0;
+    gap: 8px;
+}
+
+html[data-style="immersive"] .mode-tabs a {
+    border: 0;
+    border-radius: 999px;
+    background: #252D28;
+    color: #D1D6D3;
+    padding: 10px 15px;
+}
+
+html[data-style="immersive"] .mode-tabs a:hover {
+    background: #364039;
+    color: #FFFFFF;
+}
+
+html[data-style="immersive"] .mode-tabs a.is-active {
+    background: #F5F5F5;
+    color: #121212;
+    box-shadow: none;
+}
+
+/* The board remains the largest area; only supporting content sits to its right. */
+html[data-style="immersive"] .game-layout {
+    gap: 16px;
+}
+
+html[data-style="immersive"] .game-panel,
+html[data-style="immersive"] .search-panel,
+html[data-style="immersive"] .data-panel {
+    border: 0;
+    border-radius: 12px;
+    box-shadow: none;
+}
+
+html[data-style="immersive"] .panel-heading {
+    border: 0;
+    padding: 24px 26px 8px;
+}
+
+html[data-style="immersive"] .panel-title {
+    font-size: 16px;
+    font-weight: 650;
+}
+
+html[data-style="immersive"] .panel-title .ui-icon {
+    color: #B3B3B3;
+}
+
+html[data-style="immersive"] .round-tag > span {
+    background: #1ED760;
+}
+
+html[data-style="immersive"] .stats-strip {
+    padding: 22px 26px;
+}
+
+html[data-style="immersive"] .stat-icon {
+    width: 24px;
+    height: 24px;
+    background: transparent;
+    color: #B3B3B3;
+}
+
+html[data-style="immersive"] .stat-value {
+    font-size: 30px;
+}
+
+html[data-style="immersive"] .stat-value strong {
+    font-weight: 700;
+}
+
+html[data-style="immersive"] .board-area {
+    padding: 0 26px 24px;
+}
+
+html[data-style="immersive"] .board-toolbar {
+    padding-top: 20px;
+    padding-bottom: 14px;
+}
+
+html[data-style="immersive"] .board-toolbar h2 {
+    color: #F5F5F5;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+html[data-style="immersive"] .history-header {
+    margin-bottom: 0;
+}
+
+html[data-style="immersive"] .header-col {
+    padding: 12px 4px;
+}
+
+html[data-style="immersive"] .guess-row {
+    margin-bottom: 0;
+    gap: 0;
+    background: #1B1B1B;
+    border-bottom: 1px solid #282828;
+}
+
+html[data-style="immersive"] .attr-card {
+    padding: 19px 6px;
+    border: 0;
+    border-radius: 0;
+    min-height: 59px;
+}
+
+html[data-style="immersive"] .player-id-card,
+html[data-style="immersive"] .grey {
+    background: transparent;
+}
+
+html[data-style="immersive"] .history-header {
+    gap: 0;
+}
+
+html[data-style="immersive"] .green-dot {
+    background: #8BBF9D;
+}
+
+html[data-style="immersive"] .game-empty {
+    padding: 22px 8px 26px;
+}
+
+html[data-style="immersive"] .game-empty h3 {
+    font-size: 18px;
+    font-weight: 650;
+}
+
+html[data-style="immersive"] .game-empty > p {
+    font-size: 14px;
+}
+
+html[data-style="immersive"] .mystery-card {
+    box-shadow: none;
+    background: #252525;
+}
+
+html[data-style="immersive"] .mystery-avatar {
+    background: #1B3A28;
+    color: #8BAF99;
+}
+
+html[data-style="immersive"] .guess-composer {
+    padding: 24px 26px 22px;
+    background: #181818;
+    border-top: 0;
+    border-radius: 0 0 12px 12px;
+}
+
+html[data-style="immersive"] #player-input,
+html[data-style="immersive"] #search-input,
+html[data-style="immersive"] .kd-search,
+html[data-style="immersive"] .kd-select {
+    background: #252525;
+    border-color: transparent;
+    color: #F5F5F5;
+}
+
+html[data-style="immersive"] #player-input:hover:not(:disabled),
+html[data-style="immersive"] #search-input:hover:not(:disabled),
+html[data-style="immersive"] .kd-search:hover:not(:disabled) {
+    background: #2A2A2A;
+    border-color: #575757;
+}
+
+html[data-style="immersive"] input:focus-visible,
+html[data-style="immersive"] select:focus-visible {
+    border-color: #D7D7D7;
+    box-shadow: 0 0 0 1px #D7D7D7;
+}
+
+html[data-style="immersive"] .primary-button,
+html[data-style="immersive"] #submit-btn,
+html[data-style="immersive"] #search-btn {
+    background: #1ED760;
+    color: #07160D;
+    border-radius: 999px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-weight: 750;
+}
+
+html[data-style="immersive"] .primary-button:hover:not(:disabled),
+html[data-style="immersive"] #submit-btn:hover:not(:disabled),
+html[data-style="immersive"] #search-btn:hover:not(:disabled) {
+    background: #3BE477;
+}
+
+html[data-style="immersive"] .game-sidebar {
+    background: #121212;
+    border-radius: 12px;
+    padding: 24px 20px;
+}
+
+html[data-style="immersive"] .guide-section > h2 {
+    font-size: 15px;
+}
+
+html[data-style="immersive"] .step-number {
+    background: #252525;
+    border: 0;
+    border-radius: 50%;
+    color: #D5D5D5;
+}
+
+html[data-style="immersive"] .session-actions .action-btn {
+    border-radius: 999px;
+    background: #2A2A2A;
+    border-color: transparent;
+    color: #F5F5F5;
+}
+
+html[data-style="immersive"] .session-actions .action-btn:hover:not(:disabled) {
+    background: #363636;
+}
+
+html[data-style="immersive"] .session-actions .reveal {
+    background: transparent;
+    border-color: #414141;
+    color: #B3B3B3;
+}
+
+html[data-style="immersive"] .session-actions .reveal:hover:not(:disabled) {
+    background: #302124;
+    color: #DBB1B7;
+}
+
+/* Queries, statistics and results use the same neutral surface hierarchy. */
+html[data-style="immersive"] .bottom-search-area {
+    padding: 26px;
+}
+
+html[data-style="immersive"] .text-link {
+    color: #D2D8D4;
+}
+
+html[data-style="immersive"] .event-metric {
+    background: #151515;
+}
+
+html[data-style="immersive"] .cs-card {
+    background: #1F1F1F;
+    border: 0;
+}
+
+html[data-style="immersive"] .cs-card-bar {
+    display: none;
+}
+
+html[data-style="immersive"] .cs-player-id {
+    font-size: 22px;
+}
+
+html[data-style="immersive"] .cs-player-img-box {
+    background: #292929;
+    border-color: transparent;
+}
+
+html[data-style="immersive"] .cs-avatar-icon {
+    color: #B3B3B3;
+}
+
+html[data-style="immersive"] .data-badge {
+    background: #2A2A2A;
+    color: #CCCCCC;
+    border-radius: 999px;
+}
+
+html[data-style="immersive"] .kd-table tbody tr:hover {
+    background: #252525;
+}
+
+html[data-style="immersive"] .kd-btn {
+    background: #2A2A2A;
+    border-color: transparent;
+    color: #F5F5F5;
+    border-radius: 999px;
+}
+
+html[data-style="immersive"] .team-pill {
+    background: #2A2A2A;
+    color: #DDDDDD;
+}
+
+html[data-style="immersive"] .modal {
+    background: rgba(0, 0, 0, .76);
+}
+
+html[data-style="immersive"] .modal-box {
+    background: #181818;
+    border-color: #333333;
+    box-shadow: none;
+    border-radius: 12px;
+}
+
+html[data-style="immersive"] .modal-emblem {
+    background: #2A2A2A;
+    color: #1ED760;
+    border-radius: 50%;
+}
+
+html[data-style="immersive"] .preferences-panel {
+    background: #1B1B1B;
+    border-color: #353535;
+}
+
+html[data-style="immersive"] .preferences-badge {
+    background: #2A2A2A;
+    color: #B3B3B3;
+}
+
+html[data-style="immersive"] .preference-icon,
+html[data-style="immersive"] .preferences-mark {
+    color: #C4C4C4;
+}
+
+html[data-style="immersive"] .style-option[aria-checked="true"] {
+    background: #202D24;
+    border-color: #1ED760;
+    color: #F5F5F5;
+}
+
+html[data-style="immersive"] .app-footer {
+    max-width: 1344px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+@media (max-width: 1100px) {
+    html[data-style="immersive"] .header-inner,
+    html[data-style="immersive"] .app-main,
+    html[data-style="immersive"] .app-footer {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    html[data-style="immersive"] .page-heading {
+        padding: 26px 24px;
+        gap: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    html[data-style="immersive"] .header-inner {
+        min-height: 0;
+        padding: 14px 16px 12px;
+    }
+    html[data-style="immersive"] .app-main {
+        padding: 4px 12px 20px;
+    }
+    html[data-style="immersive"] .app-footer {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    html[data-style="immersive"] .page-heading {
+        min-height: 0;
+        padding: 24px 20px 20px;
+        gap: 22px;
+        border-radius: 10px;
+    }
+    html[data-style="immersive"] h1 {
+        font-size: 27px;
+        line-height: 1.35;
+    }
+    html[data-style="immersive"] .eyebrow {
+        font-size: 11px;
+    }
+    html[data-style="immersive"] .mode-tabs {
+        gap: 6px;
+    }
+    html[data-style="immersive"] .mode-tabs a {
+        padding: 10px 12px;
+    }
+    html[data-style="immersive"] .panel-heading {
+        padding: 20px 18px 8px;
+    }
+    html[data-style="immersive"] .panel-title {
+        font-size: 15px;
+    }
+    html[data-style="immersive"] .stats-strip {
+        padding: 18px;
+    }
+    html[data-style="immersive"] .stat-value {
+        font-size: 28px;
+    }
+    html[data-style="immersive"] .board-area {
+        padding: 0 18px 20px;
+    }
+    html[data-style="immersive"] .game-empty {
+        padding: 12px 0 22px;
+    }
+    html[data-style="immersive"] .game-empty h3 {
+        font-size: 15px;
+    }
+    html[data-style="immersive"] .game-empty > p {
+        font-size: 12px;
+    }
+    html[data-style="immersive"] .guess-composer {
+        padding: 20px 18px;
+    }
+    html[data-style="immersive"] .game-sidebar {
+        padding: 22px 20px;
+    }
+    html[data-style="immersive"] .bottom-search-area {
+        padding: 22px 18px;
+    }
+    html[data-style="immersive"] #submit-btn,
+    html[data-style="immersive"] #search-btn {
+        min-height: 48px;
+    }
+    html[data-style="immersive"] .modal-box {
+        padding: 24px 18px;
+    }
+}

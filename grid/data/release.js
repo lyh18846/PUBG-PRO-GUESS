@@ -1,0 +1,1 @@
+window.DATABASE_RELEASE = {"revision":"team-names-2026-11-03-global","legacyFingerprints":["3e0b542a","d10daa4a","e8cd6d1a","aa936000"],"providedCount":127,"supplementCount":0,"assetRevision":"logos-2026-10-17","defaultFingerprints":{"global":"4c59e067","pcl":"6885a0ac"},"pclLegacyFingerprints":["ab56e8ec"]};

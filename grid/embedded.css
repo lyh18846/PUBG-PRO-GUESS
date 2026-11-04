@@ -1,0 +1,110 @@
+html.embedded { color-scheme: light; scrollbar-color: var(--line) var(--bg); }
+html.embedded.dark-theme { color-scheme: dark; }
+html.embedded body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif; }
+html.embedded body::before { display: none; }
+html.embedded .rail, html.embedded footer, html.embedded .wordmark, html.embedded .offline, html.embedded .intro, html.embedded .eyebrow { display: none; }
+html.embedded .shell { max-width: none; margin: 0; padding: 0 18px 18px; }
+html.embedded main { padding: 16px 0 0; }
+html.embedded .topbar { min-height: 56px; height: auto; padding: 10px 0; gap: 12px; }
+html.embedded .top-right { width: 100%; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+html.embedded .library-switch { margin-right: auto; }
+html.embedded .library-switch span { color: var(--muted); }
+html.embedded .play-layout { grid-template-columns: minmax(0, 1fr) 240px; gap: 18px; }
+html.embedded .board-toolbar{ gap: 8px; margin-bottom: 12px; }
+html.embedded :is(.button, .tab, input, select, textarea) { border-radius: 8px; }
+html.embedded .button { background: var(--soft); border-color: var(--line); color: var(--text); padding: 9px 13px; }
+html.embedded .button.small { font-size: 12px; padding: 8px 11px; }
+html.embedded .button:hover:not(:disabled) { background: var(--hover); border-color: var(--muted); }
+html.embedded .button.primary { background: var(--accent); border-color: var(--accent); color: var(--on-accent, #fff); }
+html.embedded .button.primary:hover:not(:disabled) { background: var(--accent); border-color: var(--accent); color: var(--on-accent, #fff); filter: brightness(1.04); }
+html.embedded .button:active:not(:disabled) { filter: brightness(.96); }
+html.embedded :is(.tabs, .board-panel, .mission-card, .stats-card, .team-mark, dialog) { background: var(--panel); border-color: var(--line); box-shadow: none; }
+html.embedded :is(.board-panel, .mission-card, .stats-card, dialog) { border-radius: 12px; }
+html.embedded .tabs { border-radius: 10px; padding: 3px; }
+html.embedded .tab { color: var(--muted); padding: 7px 13px; }
+html.embedded .tab.active { background: var(--soft); color: var(--accent-ink, var(--accent)); }
+html.embedded .match-header { padding: 12px 16px; }
+html.embedded .board { grid-template-columns: 76px repeat(3, minmax(0, 1fr)); grid-template-rows: 84px repeat(3, 84px); gap: 6px; padding: 12px; }
+html.embedded .cell { background: var(--soft); border-color: var(--line); border-radius: 9px; color: var(--muted); }
+html.embedded .cell:hover:not(:disabled) { background: var(--hover); border-color: var(--accent); transform: translateY(-1px); }
+html.embedded .cell.correct { background: var(--soft); border-color: var(--accent); }
+html.embedded :is(.cell .cell-caption, .cell .cell-coord, .cell .cross, .condition small, .country-mark, .corner, .corner span, .text-button, .mission-sub, .rules p, .hint-note, .board-bottom, .local-note) { color: var(--muted); }
+html.embedded :is(.cell b, .condition b, .rules b, .score-panel b, .stats b) { color: var(--text); }
+html.embedded .cell.correct :is(b, small) { color: var(--accent-ink, var(--accent)); }
+html.embedded .cell.revealed { background: var(--soft); border-color: var(--line); }
+html.embedded .cell.revealed small { color: var(--muted); }
+html.embedded .team-mark { border-color: var(--line); transform: none; }
+html.embedded .mission-card { padding: 17px; }
+html.embedded .mission h2 { margin: 0 0 12px; font-size: 17px; }
+html.embedded .rules { padding: 0; }
+html.embedded .rules li { margin: 12px 0; }
+html.embedded .score-panel { margin-top: 16px; border-color: var(--line); background: var(--soft); }
+html.embedded :is(.score-panel > span, .score-panel div > span, .stats span, .modal-body-copy, .modal-body-copy b, .player-result > span:last-child, .player-country, .verification-label) { color: var(--muted); }
+html.embedded .score-panel div b, html.embedded .stats b { font-family: inherit; font-variant-numeric: tabular-nums; }
+html.embedded :is(.hearts b, #challenge-number) { font-family: inherit; font-variant-numeric: tabular-nums; }
+html.embedded .hearts b { font-weight: 650; }
+html.embedded .rules p { font-size: 12px; line-height: 1.75; }
+html.embedded .rules b { font-size: 13px; font-weight: 600; }
+html.embedded .rules li > span { color: var(--muted); background: var(--soft); border-color: var(--line); font-family: inherit; }
+html.embedded :is(.hint-note, .local-note) { font-size: 12px; line-height: 1.7; }
+html.embedded .stats span { font-size: 11px; }
+html.embedded .section-line { font-size: 13px; }
+html.embedded .section-line .text-button { font-size: 12px; }
+html.embedded .progress-track { background: var(--soft); }
+html.embedded #progress-bar { background: var(--accent); }
+html.embedded .board-bottom { padding: 10px 14px; font-size: 11px; }
+html.embedded .action-row { gap: 8px; margin-top: 12px; flex-wrap: wrap; }
+html.embedded :is(input, select, textarea) { background: var(--bg); color: var(--text); border-color: var(--line); caret-color: var(--accent); }
+html.embedded :is(button, a, input, select, textarea):focus-visible { outline: 2px solid var(--accent-ink, var(--accent)); outline-offset: 2px; }
+html.embedded ::selection { color: var(--text); background: var(--soft); }
+html.embedded dialog { max-width: calc(100% - 24px); max-height: calc(100dvh - 24px); color: var(--text); }
+html.embedded dialog::backdrop { background: rgba(10, 18, 28, .45); }
+html.embedded .icon-button { color: var(--muted); background: var(--panel); border-color: var(--line); border-radius: 8px; }
+html.embedded .icon-button:hover { color: var(--text); background: var(--soft); }
+html.embedded :is(.player-option, .search-result, .search-result-row, .form-actions, .modal-top, td, th) { border-color: var(--line); }
+html.embedded :is(.player-option, .player-result, .search-result-row, th):hover { background: var(--soft); border-color: var(--line); }
+html.embedded thead { background: var(--soft); color: var(--muted); }
+html.embedded th { font-size: 12px; font-weight: 600; }
+html.embedded td { font-size: 13px; }
+html.embedded tbody tr:hover { background: var(--soft); }
+html.embedded .cell .undo { color: var(--accent-ink); }
+html.embedded .badge { background: var(--soft); color: var(--text); border-color: var(--line); border-radius: 6px; padding: 3px 7px; font-family: inherit; font-size: 12px; font-weight: 500; line-height: 1.6; }
+html.embedded .history-tags .badge { padding: 6px 8px; }
+html.embedded .player-avatar { background: var(--soft); color: var(--accent-ink); border: 1px solid var(--line); border-radius: 9px; font-family: inherit; }
+html.embedded .player-result { border-color: transparent; border-bottom-color: var(--line); min-height: 64px; border-radius: 0; }
+html.embedded .player-info b { font-weight: 600; line-height: 1.4; }
+html.embedded .player-info small { color: var(--muted); font-size: 12px; line-height: 1.5; }
+html.embedded .field { color: var(--muted); font-size: 13px; line-height: 1.5; }
+html.embedded .field :is(input:not([type="checkbox"]), select, textarea) { font-size: 14px; min-height: 40px; }
+html.embedded :is( .lookup-card p, .source-links .text-button, .verification-label) { font-size: 12px; line-height: 1.7; }
+html.embedded #toast { background: var(--panel); color: var(--text); border-color: var(--line); }
+html.embedded.motion-disabled *, html.embedded.motion-disabled *::before, html.embedded.motion-disabled *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+@media(max-width:900px) {
+    html.embedded .play-layout { grid-template-columns: minmax(0, 1fr); }
+    html.embedded .mission { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 12px; }
+}
+@media(max-width:580px) {
+    html.embedded .shell { padding: 0 10px 90px; }
+    html.embedded .topbar { padding: 8px 0; }
+    html.embedded .top-right { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px; }
+
+    html.embedded .library-switch { min-width: 0; margin: 0; }
+    html.embedded .library-switch > span { display: none; }
+    html.embedded .library-switch select { width: 100%; min-width: 0; max-width: 100%; font-size: 12px; padding: 8px 5px; }
+    html.embedded .button.small { min-height: 36px; padding: 6px 9px; }
+    html.embedded main { padding-top: 10px; }
+    html.embedded .board-toolbar { flex-wrap: wrap; gap: 6px; }
+    html.embedded .tab { padding: 7px 10px; }
+    html.embedded .board { grid-template-columns: 48px repeat(3, minmax(0, 1fr)); grid-template-rows: 76px repeat(3, 74px); gap: 4px; padding: 8px 6px; }
+    html.embedded .match-header { padding: 10px; }
+    html.embedded .match-header > div { gap: 5px; }
+    html.embedded .condition { gap: 5px; }
+    html.embedded .condition b { font-size: 11px; }
+    html.embedded .condition small { font-size: 9px; }
+    html.embedded .cell { padding: 4px; gap: 5px; }
+    html.embedded .cell .cell-coord { top: 4px; left: 5px; }
+    html.embedded .cell .cell-caption { font-size: 10px; letter-spacing: 0; }
+    html.embedded .action-row .button { flex: 1 1 auto; font-size: 12px; padding: 9px; }
+    html.embedded .mission { display: block; margin-top: 6px; }
+    html.embedded .mission .stats-card { margin-top: 12px; }
+}

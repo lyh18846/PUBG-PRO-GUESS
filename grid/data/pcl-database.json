@@ -1,0 +1,5762 @@
+{
+  "version": 1,
+  "revision": "player-history-2026-11-04-pcl",
+  "name": "PUBG PCL 选手历史题库",
+  "description": "仅含 pclDB.json 的 100 位选手。资料按 Liquipedia 个人历史或战队/赛事阵容核对；只计算已确认的选手效力经历，不表示实时阵容。",
+  "countries": [
+    {
+      "id": "CN",
+      "name": "中国",
+      "region": "ASIA"
+    },
+    {
+      "id": "KR",
+      "name": "韩国",
+      "region": "ASIA"
+    },
+    {
+      "id": "MY",
+      "name": "马来西亚",
+      "region": "APAC"
+    }
+  ],
+  "teams": [
+    {
+      "id": "1124",
+      "name": "1124",
+      "short": "1124",
+      "fullName": "1124",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "1124"
+      ]
+    },
+    {
+      "id": "1246",
+      "name": "1246",
+      "short": "1246",
+      "fullName": "1246",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "1246"
+      ]
+    },
+    {
+      "id": "17",
+      "name": "17",
+      "short": "17",
+      "fullName": "17 Gaming",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "17 Gaming"
+      ],
+      "logo": "TEAM LOGO/17.png"
+    },
+    {
+      "id": "4AM",
+      "name": "4AM",
+      "short": "4AM",
+      "fullName": "Four Angry Men",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Four Angry Men"
+      ],
+      "logo": "TEAM LOGO/4AM.png"
+    },
+    {
+      "id": "ACE",
+      "name": "ACE",
+      "short": "ACE",
+      "fullName": "Acend",
+      "region": "EMEA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Acend"
+      ],
+      "logo": "TEAM LOGO/ACE.png"
+    },
+    {
+      "id": "AG",
+      "name": "AG",
+      "short": "AG",
+      "fullName": "All Gamers",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "All Gamers"
+      ]
+    },
+    {
+      "id": "AL",
+      "name": "AL",
+      "short": "AL",
+      "fullName": "Anyone's Legend",
+      "region": "APAC",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Anyone's Legend",
+        "All Gamers Global",
+        "AG Global",
+        "AGAL"
+      ],
+      "logo": "TEAM LOGO/AL.png"
+    },
+    {
+      "id": "ANS",
+      "name": "ANS",
+      "short": "ANS",
+      "fullName": "Team ANS",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Team ANS"
+      ]
+    },
+    {
+      "id": "ARK",
+      "name": "ARK",
+      "short": "ARK",
+      "fullName": "ARK Gameteam",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "ARK Gameteam"
+      ]
+    },
+    {
+      "id": "AXI",
+      "name": "AXI",
+      "short": "AXI",
+      "fullName": "Axi Esports Club",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Axi Esports Club",
+        "Axi Esports Club",
+        "Axi Esports Club",
+        "Axi Esports Club",
+        "Axi Esports Club"
+      ]
+    },
+    {
+      "id": "BA",
+      "name": "BA",
+      "short": "BA",
+      "fullName": "Black Ananas",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Black Ananas",
+        "Black Ananas",
+        "Black Ananas",
+        "Black Ananas",
+        "Black Ananas"
+      ]
+    },
+    {
+      "id": "BB",
+      "name": "BB",
+      "short": "BB",
+      "fullName": "BB Team",
+      "region": "EMEA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "BB Team"
+      ],
+      "logo": "TEAM LOGO/BB.png"
+    },
+    {
+      "id": "BGP",
+      "name": "BGP",
+      "short": "BGP",
+      "fullName": "Baegopa",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Baegopa"
+      ],
+      "logo": "TEAM LOGO/BGP.png"
+    },
+    {
+      "id": "BRU",
+      "name": "BRU",
+      "short": "BRU",
+      "fullName": "Buriram United Esports",
+      "region": "APAC",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Buriram United Esports"
+      ],
+      "logo": "TEAM LOGO/BRU.png"
+    },
+    {
+      "id": "CCG",
+      "name": "CCG",
+      "short": "CCG",
+      "fullName": "Chosen Clique Gaming",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Chosen Clique Gaming"
+      ],
+      "logo": "TEAM LOGO/CCG.png"
+    },
+    {
+      "id": "CES",
+      "name": "CES",
+      "short": "CES",
+      "fullName": "CERBERUS Esports",
+      "region": "APAC",
+      "color": "#c8d3b3",
+      "aliases": [
+        "CERBERUS Esports"
+      ],
+      "logo": "TEAM LOGO/CES.png"
+    },
+    {
+      "id": "COC",
+      "name": "COC",
+      "short": "COC",
+      "fullName": "COC",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "COC"
+      ],
+      "logo": "TEAM LOGO/COC.png"
+    },
+    {
+      "id": "CR",
+      "name": "CR",
+      "short": "CR",
+      "fullName": "Crazy Raccoon",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Crazy Raccoon"
+      ],
+      "logo": "TEAM LOGO/CR.png"
+    },
+    {
+      "id": "CTG",
+      "name": "CTG",
+      "short": "CTG",
+      "fullName": "Change The Game",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Change The Game"
+      ],
+      "logo": "TEAM LOGO/CTG.png"
+    },
+    {
+      "id": "D7G",
+      "name": "D7G",
+      "short": "D7G",
+      "fullName": "Divine 7 Gaming",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Divine 7 Gaming"
+      ]
+    },
+    {
+      "id": "DAE",
+      "name": "DAE",
+      "short": "DAE",
+      "fullName": "DAE Gaming",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "DAE Gaming",
+        "DAEGaming"
+      ]
+    },
+    {
+      "id": "DAY",
+      "name": "DAY",
+      "short": "DAY",
+      "fullName": "Daytrade Gaming",
+      "region": "APAC",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Daytrade Gaming",
+        "Daytrade Gaming BULL"
+      ],
+      "logo": "TEAM LOGO/DAY.png"
+    },
+    {
+      "id": "DDT",
+      "name": "DDT",
+      "short": "DDT",
+      "fullName": "DD Team",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "DD Team"
+      ]
+    },
+    {
+      "id": "DGG",
+      "name": "DGG",
+      "short": "DGG",
+      "fullName": "Delivery Guys Gaming",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Delivery Guys Gaming"
+      ]
+    },
+    {
+      "id": "DIG",
+      "name": "DIG",
+      "short": "DIG",
+      "fullName": "Dignitas",
+      "region": "AMERICAS",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Dignitas",
+        "Team Dignitas"
+      ],
+      "logo": "TEAM LOGO/DIG.png"
+    },
+    {
+      "id": "DIP",
+      "name": "DIP",
+      "short": "DIP",
+      "fullName": "Dream it Possible",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Dream it Possible",
+        "DreamitPossible",
+        "DreamitPossible"
+      ]
+    },
+    {
+      "id": "DK",
+      "name": "DK",
+      "short": "DK",
+      "fullName": "Dplus",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Dplus",
+        "DAMWON Gaming",
+        "DWG KIA",
+        "Dplus KIA"
+      ],
+      "logo": "TEAM LOGO/DK.png"
+    },
+    {
+      "id": "DNS",
+      "name": "DNS",
+      "short": "DNS",
+      "fullName": "SOOPers",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "SOOPers",
+        "Freecs",
+        "Afreeca Freecs",
+        "Afreeca Freecs Ares",
+        "Kwangdong Freecs",
+        "DN Freecs",
+        "DN SOOPers"
+      ],
+      "logo": "TEAM LOGO/DNS.png"
+    },
+    {
+      "id": "DNW",
+      "name": "DNW",
+      "short": "DNW",
+      "fullName": "Danawa e-sports",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Danawa e-sports",
+        "Danawa ATTACK ZERO",
+        "DPG Danawa",
+        "Danawa Play Game AIM",
+        "DPG AGON",
+        "DPG EVGA"
+      ],
+      "logo": "TEAM LOGO/DNW.png"
+    },
+    {
+      "id": "DSS",
+      "name": "DSS",
+      "short": "DSS",
+      "fullName": "Dream Set Sail",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Dream Set Sail"
+      ]
+    },
+    {
+      "id": "DT",
+      "name": "DT",
+      "short": "DT",
+      "fullName": "Dream Team",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Dream Team"
+      ]
+    },
+    {
+      "id": "EA",
+      "name": "EA",
+      "short": "EA",
+      "fullName": "eArena",
+      "region": "APAC",
+      "color": "#c8d3b3",
+      "aliases": [
+        "eArena"
+      ],
+      "logo": "TEAM LOGO/EA.png"
+    },
+    {
+      "id": "EDG",
+      "name": "EDG",
+      "short": "EDG",
+      "fullName": "EDward Gaming",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "EDward Gaming"
+      ],
+      "logo": "TEAM LOGO/EDG.png"
+    },
+    {
+      "id": "EMT",
+      "name": "EMT",
+      "short": "EMT",
+      "fullName": "emTek StormX e-sports",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "emTek StormX e-sports"
+      ],
+      "logo": "TEAM LOGO/EMT.png"
+    },
+    {
+      "id": "EU",
+      "name": "EU",
+      "short": "EU",
+      "fullName": "eUnited",
+      "region": "AMERICAS",
+      "color": "#c8d3b3",
+      "aliases": [
+        "eUnited"
+      ],
+      "logo": "TEAM LOGO/EU.png"
+    },
+    {
+      "id": "FAZE",
+      "name": "FAZE",
+      "short": "FAZE",
+      "fullName": "FaZe Clan",
+      "region": "EMEA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "FaZe Clan"
+      ],
+      "logo": "TEAM LOGO/FaZe.png"
+    },
+    {
+      "id": "FLC",
+      "name": "FLC",
+      "short": "FLC",
+      "fullName": "Team Falcons",
+      "region": "AMERICAS",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Team Falcons"
+      ],
+      "logo": "TEAM LOGO/FLC.png"
+    },
+    {
+      "id": "FOR",
+      "name": "FOR",
+      "short": "FOR",
+      "fullName": "Forest Natural Gaming",
+      "region": "APAC",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Forest Natural Gaming",
+        "Forest Gaming",
+        "FOR"
+      ],
+      "logo": "TEAM LOGO/FOR.png"
+    },
+    {
+      "id": "FPX",
+      "name": "FPX",
+      "short": "FPX",
+      "fullName": "FunPlus Phoenix",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "FunPlus Phoenix"
+      ]
+    },
+    {
+      "id": "FS",
+      "name": "FS",
+      "short": "FS",
+      "fullName": "FULL SENSE",
+      "region": "APAC",
+      "color": "#c8d3b3",
+      "aliases": [
+        "FULL SENSE"
+      ],
+      "logo": "TEAM LOGO/FS.png"
+    },
+    {
+      "id": "FUR",
+      "name": "FUR",
+      "short": "FUR",
+      "fullName": "FURIA",
+      "region": "AMERICAS",
+      "color": "#c8d3b3",
+      "aliases": [
+        "FURIA"
+      ],
+      "logo": "TEAM LOGO/FUR.png"
+    },
+    {
+      "id": "FUT",
+      "name": "FUT",
+      "short": "FUT",
+      "fullName": "FUT Esports",
+      "region": "EMEA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "FUT Esports"
+      ],
+      "logo": "TEAM LOGO/FUT.png"
+    },
+    {
+      "id": "GAM",
+      "name": "GAM",
+      "short": "GAM",
+      "fullName": "GAM Esports",
+      "region": "APAC",
+      "color": "#c8d3b3",
+      "aliases": [
+        "GAM Esports"
+      ],
+      "logo": "TEAM LOGO/GAM.png"
+    },
+    {
+      "id": "GEN",
+      "name": "GEN",
+      "short": "GEN",
+      "fullName": "Gen.G Esports",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Gen.G Esports",
+        "GenG",
+        "Gen.G",
+        "Gen.G Gold",
+        "Gen.G Black",
+        "KSV CLES",
+        "GEN"
+      ],
+      "logo": "TEAM LOGO/GEN.png"
+    },
+    {
+      "id": "GFY",
+      "name": "GFY",
+      "short": "GFY",
+      "fullName": "Games Forever Young",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Games Forever Young"
+      ]
+    },
+    {
+      "id": "GK",
+      "name": "GK",
+      "short": "GK",
+      "fullName": "Geekay Esports",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Geekay Esports"
+      ],
+      "logo": "TEAM LOGO/GK.png"
+    },
+    {
+      "id": "GKS",
+      "name": "GKS",
+      "short": "GKS",
+      "fullName": "GenKiShi",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "GenKiShi"
+      ]
+    },
+    {
+      "id": "GQG",
+      "name": "GQG",
+      "short": "GQG",
+      "fullName": "Golden Quester Gaming",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Golden Quester Gaming"
+      ]
+    },
+    {
+      "id": "GSW",
+      "name": "GSW",
+      "short": "GSW",
+      "fullName": "Game Start Win",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Game Start Win"
+      ],
+      "logo": "TEAM LOGO/GSW.png"
+    },
+    {
+      "id": "GT",
+      "name": "GT",
+      "short": "GT",
+      "fullName": "GT Gaming",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "GT Gaming"
+      ]
+    },
+    {
+      "id": "HQ",
+      "name": "HQ",
+      "short": "HQ",
+      "fullName": "HaloQueen",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "HaloQueen"
+      ]
+    },
+    {
+      "id": "I7",
+      "name": "I7",
+      "short": "I7",
+      "fullName": "i7",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "i7"
+      ]
+    },
+    {
+      "id": "IFTY",
+      "name": "IFTY",
+      "short": "IFTY",
+      "fullName": "Infantry",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Infantry"
+      ],
+      "logo": "TEAM LOGO/IFTY.png"
+    },
+    {
+      "id": "JDG",
+      "name": "JDG",
+      "short": "JDG",
+      "fullName": "JD Gaming",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "JD Gaming"
+      ],
+      "logo": "TEAM LOGO/JDG.png"
+    },
+    {
+      "id": "JRG",
+      "name": "JRG",
+      "short": "JRG",
+      "fullName": "Jian Rong Gaming",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Jian Rong Gaming"
+      ]
+    },
+    {
+      "id": "JSG",
+      "name": "JSG",
+      "short": "JSG",
+      "fullName": "Jia Shan Gaming",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Jia Shan Gaming"
+      ]
+    },
+    {
+      "id": "JT",
+      "name": "JT",
+      "short": "JT",
+      "fullName": "J Team",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "J Team"
+      ]
+    },
+    {
+      "id": "JTG",
+      "name": "JTG",
+      "short": "JTG",
+      "fullName": "Joy Tiger Gaming",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Joy Tiger Gaming"
+      ]
+    },
+    {
+      "id": "JUFU",
+      "name": "JUFU",
+      "short": "JUFU",
+      "fullName": "JUFU",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "JUFU"
+      ]
+    },
+    {
+      "id": "KG",
+      "name": "KG",
+      "short": "KG",
+      "fullName": "Keen Gaming",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Keen Gaming"
+      ]
+    },
+    {
+      "id": "KL",
+      "name": "KL",
+      "short": "KL",
+      "fullName": "Kuaile Gaming",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Kuaile Gaming",
+        "KuaileGaming"
+      ]
+    },
+    {
+      "id": "KX",
+      "name": "KX",
+      "short": "KX",
+      "fullName": "KaiXin Esports",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "KaiXin Esports"
+      ]
+    },
+    {
+      "id": "KZ",
+      "name": "KZ",
+      "short": "KZ",
+      "fullName": "KingZone",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "KingZone"
+      ]
+    },
+    {
+      "id": "LGCY",
+      "name": "LGCY",
+      "short": "LGCY",
+      "fullName": "Legacy",
+      "region": "AMERICAS",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Legacy"
+      ],
+      "logo": "TEAM LOGO/LGCY.png"
+    },
+    {
+      "id": "LG",
+      "name": "LG",
+      "short": "LG",
+      "fullName": "Luminosity Gaming",
+      "region": "AMERICAS",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Luminosity Gaming"
+      ],
+      "logo": "TEAM LOGO/LG.png"
+    },
+    {
+      "id": "LGD",
+      "name": "LGD",
+      "short": "LGD",
+      "fullName": "LGD Gaming",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "LGD Gaming"
+      ],
+      "logo": "TEAM LOGO/LGD.png"
+    },
+    {
+      "id": "LGE",
+      "name": "LGE",
+      "short": "LGE",
+      "fullName": "LinGan e-Sports",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "LinGan e-Sports"
+      ]
+    },
+    {
+      "id": "LYG",
+      "name": "LYG",
+      "short": "LYG",
+      "fullName": "Lao Yue Gou",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Lao Yue Gou",
+        "LaoYueGou",
+        "LaoYueGou"
+      ],
+      "logo": "TEAM LOGO/LYG.png"
+    },
+    {
+      "id": "LZR",
+      "name": "LZR",
+      "short": "LZR",
+      "fullName": "Lazarus",
+      "region": "AMERICAS",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Lazarus"
+      ],
+      "logo": "TEAM LOGO/LZR.png"
+    },
+    {
+      "id": "MAD",
+      "name": "MAD",
+      "short": "MAD",
+      "fullName": "MaD Clan",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "MaD Clan"
+      ],
+      "logo": "TEAM LOGO/MAD.png"
+    },
+    {
+      "id": "MB",
+      "name": "MB",
+      "short": "MB",
+      "fullName": "MadBulls",
+      "region": "EMEA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "MadBulls"
+      ],
+      "logo": "TEAM LOGO/MB.png"
+    },
+    {
+      "id": "MCG",
+      "name": "MCG",
+      "short": "MCG",
+      "fullName": "Multi Circle Gaming",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Multi Circle Gaming"
+      ],
+      "logo": "TEAM LOGO/MCG.png"
+    },
+    {
+      "id": "MITH",
+      "name": "MITH",
+      "short": "MITH",
+      "fullName": "Made in Thailand",
+      "region": "APAC",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Made in Thailand",
+        "MiTH"
+      ],
+      "logo": "TEAM LOGO/MITH.png"
+    },
+    {
+      "id": "MQ",
+      "name": "MQ",
+      "short": "MQ",
+      "fullName": "My Queen",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "My Queen",
+        "MyQueen"
+      ]
+    },
+    {
+      "id": "NAVI",
+      "name": "NAVI",
+      "short": "NAVI",
+      "fullName": "Natus Vincere",
+      "region": "EMEA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Natus Vincere",
+        "Na`Vi"
+      ],
+      "logo": "TEAM LOGO/NAVI.png"
+    },
+    {
+      "id": "NEXT",
+      "name": "NEXT",
+      "short": "NEXT",
+      "fullName": "NEXT",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "NEXT"
+      ],
+      "logo": "TEAM LOGO/NEXT.png"
+    },
+    {
+      "id": "NH",
+      "name": "NH",
+      "short": "NH",
+      "fullName": "NewHappy",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "NewHappy"
+      ],
+      "logo": "TEAM LOGO/NH.png"
+    },
+    {
+      "id": "NIP",
+      "name": "NIP",
+      "short": "NIP",
+      "fullName": "Ninjas in Pyjamas",
+      "region": "EMEA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Ninjas in Pyjamas"
+      ]
+    },
+    {
+      "id": "NMSS",
+      "name": "NMSS",
+      "short": "NMSS",
+      "fullName": "Team Nemesis",
+      "region": "EMEA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Team Nemesis"
+      ],
+      "logo": "TEAM LOGO/NMSS.png"
+    },
+    {
+      "id": "NVG",
+      "name": "NVG",
+      "short": "NVG",
+      "fullName": "Nirvana Gaming",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Nirvana Gaming"
+      ]
+    },
+    {
+      "id": "OIG",
+      "name": "OIG",
+      "short": "OIG",
+      "fullName": "OIG",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "OIG"
+      ]
+    },
+    {
+      "id": "OMG",
+      "name": "OMG",
+      "short": "OMG",
+      "fullName": "Oh My God",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Oh My God"
+      ],
+      "logo": "TEAM LOGO/OMG.png"
+    },
+    {
+      "id": "OX",
+      "name": "OX",
+      "short": "OX",
+      "fullName": "Oriental Xeon",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Oriental Xeon"
+      ]
+    },
+    {
+      "id": "PERO",
+      "name": "PERO",
+      "short": "PERO",
+      "fullName": "Petrichor Road",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Petrichor Road",
+        "PeRo"
+      ],
+      "logo": "TEAM LOGO/PeRo.png"
+    },
+    {
+      "id": "QM",
+      "name": "QM",
+      "short": "QM",
+      "fullName": "Question Mark",
+      "region": "EMEA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Question Mark"
+      ],
+      "logo": "TEAM LOGO/QM.png"
+    },
+    {
+      "id": "QM-CN",
+      "name": "QM-CN",
+      "short": "QM-CN",
+      "fullName": "QuanMing Gaming",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "QuanMing Gaming",
+        "QM Gaming"
+      ]
+    },
+    {
+      "id": "R8",
+      "name": "R8",
+      "short": "R8",
+      "fullName": "R8 Esports",
+      "region": "EMEA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "R8 Esports"
+      ],
+      "logo": "TEAM LOGO/R8.png"
+    },
+    {
+      "id": "RB",
+      "name": "RB",
+      "short": "RB",
+      "fullName": "RushB",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "RushB"
+      ]
+    },
+    {
+      "id": "RNG",
+      "name": "RNG",
+      "short": "RNG",
+      "fullName": "Royal Never Give Up",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Royal Never Give Up",
+        "RNG"
+      ],
+      "logo": "TEAM LOGO/RNG.png"
+    },
+    {
+      "id": "RS",
+      "name": "RS",
+      "short": "RS",
+      "fullName": "RainbowStyle",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "RainbowStyle"
+      ]
+    },
+    {
+      "id": "S8UL",
+      "name": "S8UL",
+      "short": "S8UL",
+      "fullName": "S8UL Esports",
+      "region": "APAC",
+      "color": "#c8d3b3",
+      "aliases": [
+        "S8UL Esports"
+      ],
+      "logo": "TEAM LOGO/S8UL.png"
+    },
+    {
+      "id": "SE",
+      "name": "SE",
+      "short": "SE",
+      "fullName": "Sharper Esport",
+      "region": "APAC",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Sharper Esport",
+        "Sharper Esports"
+      ],
+      "logo": "TEAM LOGO/SE.png"
+    },
+    {
+      "id": "SGD",
+      "name": "SGD",
+      "short": "SGD",
+      "fullName": "ShuaiGeDui",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "ShuaiGeDui"
+      ]
+    },
+    {
+      "id": "SMG",
+      "name": "SMG",
+      "short": "SMG",
+      "fullName": "SMG",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "SMG"
+      ]
+    },
+    {
+      "id": "SMS",
+      "name": "SMS",
+      "short": "SMS",
+      "fullName": "Soy Milk Squad",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Soy Milk Squad",
+        "SoyMilkSquad"
+      ]
+    },
+    {
+      "id": "SNAKE",
+      "name": "SNAKE",
+      "short": "SNAKE",
+      "fullName": "Snake Esports",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Snake Esports"
+      ]
+    },
+    {
+      "id": "SP",
+      "name": "SP",
+      "short": "SP",
+      "fullName": "SeolHaeOne Prince",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "SeolHaeOne Prince"
+      ],
+      "logo": "TEAM LOGO/SP.png"
+    },
+    {
+      "id": "SQ",
+      "name": "SQ",
+      "short": "SQ",
+      "fullName": "Soniqs",
+      "region": "AMERICAS",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Soniqs",
+        "Susquehanna Soniqs",
+        "Susquehanna Soniqs",
+        "Susquehanna Soniqs"
+      ],
+      "logo": "TEAM LOGO/SQ.png"
+    },
+    {
+      "id": "SSG",
+      "name": "SSG",
+      "short": "SSG",
+      "fullName": "Spacestation Gaming",
+      "region": "AMERICAS",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Spacestation Gaming"
+      ],
+      "logo": "TEAM LOGO/SSG.png"
+    },
+    {
+      "id": "SSS",
+      "name": "SSS",
+      "short": "SSS",
+      "fullName": "Super Survivor Squad",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Super Survivor Squad",
+        "KingZone.SSS",
+        "KingZone.SSS"
+      ]
+    },
+    {
+      "id": "STG",
+      "name": "STG",
+      "short": "STG",
+      "fullName": "Special Troops Gaming",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Special Troops Gaming"
+      ]
+    },
+    {
+      "id": "STK",
+      "name": "STK",
+      "short": "STK",
+      "fullName": "Shoot To Kill",
+      "region": "AMERICAS",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Shoot To Kill"
+      ],
+      "logo": "TEAM LOGO/STK.png"
+    },
+    {
+      "id": "SYXL",
+      "name": "SYXL",
+      "short": "SYXL",
+      "fullName": "Sheng Yi Xin Long",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Sheng Yi Xin Long",
+        "ShengYiXinLong",
+        "ShengYiXinLong"
+      ]
+    },
+    {
+      "id": "T1",
+      "name": "T1",
+      "short": "T1",
+      "fullName": "T1",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "T1"
+      ],
+      "logo": "TEAM LOGO/T1.png"
+    },
+    {
+      "id": "T5",
+      "name": "T5",
+      "short": "T5",
+      "fullName": "Theerathon Five",
+      "region": "APAC",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Theerathon Five",
+        "T5"
+      ],
+      "logo": "TEAM LOGO/T5.png"
+    },
+    {
+      "id": "TC",
+      "name": "TKL",
+      "short": "TKL",
+      "fullName": "Too Cool",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Too Cool",
+        "TC",
+        "TKL"
+      ],
+      "logo": "TEAM LOGO/TKL.png"
+    },
+    {
+      "id": "TE",
+      "name": "TE",
+      "short": "TE",
+      "fullName": "The Expendables",
+      "region": "APAC",
+      "color": "#c8d3b3",
+      "aliases": [
+        "The Expendables",
+        "GAM x TE",
+        "GTE"
+      ],
+      "logo": "TEAM LOGO/TE.png"
+    },
+    {
+      "id": "TG",
+      "name": "TG",
+      "short": "TG",
+      "fullName": "Taichi Gaming",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Taichi Gaming"
+      ]
+    },
+    {
+      "id": "TIAN",
+      "name": "TIAN",
+      "short": "TIAN",
+      "fullName": "Tianba",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Tianba"
+      ],
+      "logo": "TEAM LOGO/TIAN.png"
+    },
+    {
+      "id": "TIGER",
+      "name": "TIGER",
+      "short": "TIGER",
+      "fullName": "TIGER",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "TIGER"
+      ]
+    },
+    {
+      "id": "TITAN",
+      "name": "TITAN",
+      "short": "TITAN",
+      "fullName": "TITAN",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "TITAN"
+      ]
+    },
+    {
+      "id": "TL",
+      "name": "TL",
+      "short": "TL",
+      "fullName": "Team Liquid",
+      "region": "AMERICAS",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Team Liquid",
+        "TL"
+      ],
+      "logo": "TEAM LOGO/TL.png"
+    },
+    {
+      "id": "TM",
+      "name": "TM",
+      "short": "TM",
+      "fullName": "Team Magic",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Team Magic"
+      ]
+    },
+    {
+      "id": "TMA",
+      "name": "TMA",
+      "short": "TMA",
+      "fullName": "TakeMeAway Gaming",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "TakeMeAway Gaming"
+      ],
+      "logo": "TEAM LOGO/TMA.png"
+    },
+    {
+      "id": "TSG",
+      "name": "TSG",
+      "short": "TSG",
+      "fullName": "Triumphant Song Gaming",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Triumphant Song Gaming",
+        "TriumphantSongGaming"
+      ]
+    },
+    {
+      "id": "TSG(新)",
+      "name": "TSG(新)",
+      "short": "TSG(新)",
+      "fullName": "Tang Shan Gaming",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Tang Shan Gaming",
+        "TangShanGaming"
+      ]
+    },
+    {
+      "id": "TSM",
+      "name": "TSM",
+      "short": "TSM",
+      "fullName": "TSM",
+      "region": "AMERICAS",
+      "color": "#c8d3b3",
+      "aliases": [
+        "TSM",
+        "Team SoloMid"
+      ],
+      "logo": "TEAM LOGO/TSM.png"
+    },
+    {
+      "id": "TWIS",
+      "name": "TWIS",
+      "short": "TWIS",
+      "fullName": "Twisted Minds",
+      "region": "EMEA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Twisted Minds"
+      ],
+      "logo": "TEAM LOGO/TWIS.png"
+    },
+    {
+      "id": "TYL",
+      "name": "TYL",
+      "short": "TYL",
+      "fullName": "TYLOO",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "TYLOO"
+      ],
+      "logo": "TEAM LOGO/TYL.png"
+    },
+    {
+      "id": "UP",
+      "name": "UP",
+      "short": "UP",
+      "fullName": "Unlimited Potential",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Unlimited Potential"
+      ]
+    },
+    {
+      "id": "V5",
+      "name": "V5",
+      "short": "V5",
+      "fullName": "Victory Five",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Victory Five"
+      ]
+    },
+    {
+      "id": "V7",
+      "name": "V7",
+      "short": "V7",
+      "fullName": "Veronica7",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Veronica7"
+      ],
+      "logo": "TEAM LOGO/V7.png"
+    },
+    {
+      "id": "VC",
+      "name": "VC",
+      "short": "VC",
+      "fullName": "VC Gaming",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "VC Gaming"
+      ],
+      "logo": "TEAM LOGO/VC.png"
+    },
+    {
+      "id": "VG",
+      "name": "VG",
+      "short": "VG",
+      "fullName": "ViCi Gaming",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "ViCi Gaming"
+      ]
+    },
+    {
+      "id": "VIT",
+      "name": "VIT",
+      "short": "VIT",
+      "fullName": "Team Vitality",
+      "region": "EMEA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Team Vitality"
+      ],
+      "logo": "TEAM LOGO/VIT.png"
+    },
+    {
+      "id": "VP",
+      "name": "VP",
+      "short": "VP",
+      "fullName": "Virtus.pro",
+      "region": "EMEA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Virtus.pro"
+      ],
+      "logo": "TEAM LOGO/VP.png"
+    },
+    {
+      "id": "WBG",
+      "name": "WBG",
+      "short": "WBG",
+      "fullName": "Weibo Gaming",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Weibo Gaming"
+      ],
+      "logo": "TEAM LOGO/WBG.png"
+    },
+    {
+      "id": "WC",
+      "name": "WC",
+      "short": "WC",
+      "fullName": "Wildcard Gaming",
+      "region": "AMERICAS",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Wildcard Gaming"
+      ],
+      "logo": "TEAM LOGO/WC.png"
+    },
+    {
+      "id": "WD",
+      "name": "WD",
+      "short": "WD",
+      "fullName": "WuDu",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "WuDu"
+      ]
+    },
+    {
+      "id": "WOD",
+      "name": "WOD",
+      "short": "WOD",
+      "fullName": "winordie.",
+      "region": "EMEA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "winordie.",
+        "winordie",
+        "winordie.",
+        "winordie."
+      ],
+      "logo": "TEAM LOGO/WIN.png"
+    },
+    {
+      "id": "WOL",
+      "name": "WOL",
+      "short": "WOL",
+      "fullName": "Wolves Esports Club",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Wolves Esports Club"
+      ]
+    },
+    {
+      "id": "WOO",
+      "name": "WOO",
+      "short": "WOO",
+      "fullName": "the Woo",
+      "region": "EMEA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "the Woo"
+      ],
+      "logo": "TEAM LOGO/WOO.png"
+    },
+    {
+      "id": "WUK",
+      "name": "WUK",
+      "short": "WUK",
+      "fullName": "WUKONG E-Sports Club",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "WUKONG E-Sports Club"
+      ]
+    },
+    {
+      "id": "XCG",
+      "name": "XCG",
+      "short": "XCG",
+      "fullName": "XingChen Gaming",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "XingChen Gaming"
+      ]
+    },
+    {
+      "id": "XJ",
+      "name": "XJ",
+      "short": "XJ",
+      "fullName": "Xiao Ji",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Xiao Ji"
+      ]
+    },
+    {
+      "id": "XLG",
+      "name": "XLG",
+      "short": "XLG",
+      "fullName": "XiangLu Gaming",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "XiangLu Gaming"
+      ]
+    },
+    {
+      "id": "XMEN",
+      "name": "XMEN",
+      "short": "XMEN",
+      "fullName": "Xavage Men Esports",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Xavage Men Esports"
+      ]
+    },
+    {
+      "id": "XQ",
+      "name": "XQ",
+      "short": "XQ",
+      "fullName": "X-Quest",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "X-Quest"
+      ]
+    },
+    {
+      "id": "YBG",
+      "name": "YBG",
+      "short": "YBG",
+      "fullName": "Yan Bian Gaming",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Yan Bian Gaming",
+        "YanBianGaming"
+      ]
+    },
+    {
+      "id": "ZCG",
+      "name": "ZCG",
+      "short": "ZCG",
+      "fullName": "Zhu Chao Gaming",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "Zhu Chao Gaming"
+      ],
+      "logo": "TEAM LOGO/ZCG.png"
+    },
+    {
+      "id": "ZK",
+      "name": "ZK",
+      "short": "ZK",
+      "fullName": "ZHIKE",
+      "region": "ASIA",
+      "color": "#c8d3b3",
+      "aliases": [
+        "ZHIKE"
+      ],
+      "logo": "TEAM LOGO/ZK.png"
+    },
+    {
+      "id": "VC(越南)",
+      "name": "VC(越南)",
+      "short": "VC(越南)",
+      "fullName": "VC（越南）",
+      "region": "APAC",
+      "color": "#c8d3b3",
+      "aliases": [
+        "VC(越南)"
+      ],
+      "logo": "TEAM LOGO/VC(越南).png"
+    },
+    {
+      "id": "Lstars",
+      "name": "Lstars",
+      "short": "Lstars",
+      "fullName": "Luminous Stars",
+      "region": "ASIA"
+    },
+    {
+      "id": "MnG",
+      "name": "MnG",
+      "short": "MnG",
+      "fullName": "Midnight Gaming",
+      "region": "ASIA"
+    },
+    {
+      "id": "TBB",
+      "name": "TBB",
+      "short": "TBB",
+      "fullName": "Tang Bao Bao",
+      "region": "ASIA"
+    }
+  ],
+  "players": [
+    {
+      "id": "lilghost",
+      "name": "Lilghost",
+      "country": "CN",
+      "teams": [
+        "AXI",
+        "COC",
+        "KX",
+        "17"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/LilGhost",
+      "note": "",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/LilGhost"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "Lilghost",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "现役",
+        "birthday": "1999-12-15",
+        "pgcTotal": 5,
+        "team": "17",
+        "worldChamps": 3,
+        "image": "./images/players/Lilghost.png",
+        "teamImage": "./images/teams/17.png"
+      }
+    },
+    {
+      "id": "xwudd",
+      "name": "xwudd",
+      "country": "CN",
+      "teams": [
+        "OMG",
+        "NH",
+        "WBG",
+        "WD",
+        "17"
+      ],
+      "aliases": [
+        "小五"
+      ],
+      "source": "https://liquipedia.net/pubg/Xwudd",
+      "note": "",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Xwudd"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "xwudd",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "现役",
+        "birthday": "2001-02-08",
+        "pgcTotal": 4,
+        "team": "17",
+        "worldChamps": 3,
+        "image": "./images/players/xwudd.png",
+        "teamImage": "./images/teams/17.png"
+      }
+    },
+    {
+      "id": "wenbo",
+      "name": "WenBo",
+      "country": "CN",
+      "teams": [
+        "CTG",
+        "17"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/WenBo",
+      "note": "",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/WenBo"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "WenBo",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "现役",
+        "birthday": "2005-11-30",
+        "pgcTotal": 1,
+        "team": "17",
+        "worldChamps": 1,
+        "image": "./images/players/WenBo.png",
+        "teamImage": "./images/teams/17.png"
+      }
+    },
+    {
+      "id": "tiantian",
+      "name": "tiantian",
+      "country": "CN",
+      "teams": [
+        "LGD",
+        "DT",
+        "CTG",
+        "17"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/Tiantian",
+      "note": "",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Tiantian"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "tiantian",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "现役",
+        "birthday": "2003-12-14",
+        "pgcTotal": 1,
+        "team": "17",
+        "worldChamps": 1,
+        "image": "./images/players/tiantian.png",
+        "teamImage": "./images/teams/17.png"
+      }
+    },
+    {
+      "id": "xbei",
+      "name": "Xbei",
+      "country": "CN",
+      "teams": [
+        "SSS",
+        "OMG",
+        "17"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/Xbei",
+      "note": "",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Xbei"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "Xbei",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "birthday": "2000-12-07",
+        "pgcTotal": 4,
+        "team": "17",
+        "worldChamps": 2,
+        "image": "./images/players/Xbei.png",
+        "teamImage": "./images/teams/17.png"
+      }
+    },
+    {
+      "id": "77owo",
+      "name": "77owo",
+      "country": "CN",
+      "teams": [
+        "UP",
+        "TG",
+        "VG",
+        "OIG",
+        "LGE",
+        "TIAN",
+        "17"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/77owo",
+      "note": "",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/77owo"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "77owo",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "birthday": "2001-03-06",
+        "pgcTotal": 4,
+        "team": "17",
+        "worldChamps": 1,
+        "image": "./images/players/77owo.png",
+        "teamImage": "./images/teams/17.png"
+      }
+    },
+    {
+      "id": "sujiu",
+      "name": "SuJiu",
+      "country": "CN",
+      "teams": [
+        "COC",
+        "17",
+        "TYL",
+        "EDG"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/SuJiu",
+      "note": "",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/SuJiu"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "SuJiu",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "birthday": "2002-02-22",
+        "pgcTotal": 4,
+        "team": "EDG",
+        "worldChamps": 1,
+        "image": "./images/players/SuJiu.png",
+        "teamImage": "./images/teams/EDG.png"
+      }
+    },
+    {
+      "id": "shou",
+      "name": "shou",
+      "country": "CN",
+      "teams": [
+        "17",
+        "SMG"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/Shou",
+      "note": "",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Shou"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "shou",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "birthday": "1999-06-01",
+        "pgcTotal": 2,
+        "team": "AVG",
+        "worldChamps": 0,
+        "image": "./images/players/shou.png",
+        "teamImage": "./images/teams/AVG.png"
+      }
+    },
+    {
+      "id": "yyxovo",
+      "name": "yyxovo",
+      "country": "CN",
+      "teams": [
+        "LYG",
+        "17",
+        "SMG",
+        "WOL",
+        "TIGER"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/Yyxovo",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "yyxovo",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "age": 30,
+        "pgcTotal": 0,
+        "team": "JuFu",
+        "worldChamps": 0,
+        "image": "./images/players/yyxovo.png",
+        "teamImage": "./images/teams/JuFu.png"
+      },
+      "note": "",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Yyxovo"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "axidd",
+      "name": "Axidd",
+      "country": "CN",
+      "teams": [
+        "17",
+        "RS",
+        "CCG",
+        "EDG"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/Axidd",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "Axidd",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "现役",
+        "birthday": "2005-02-25",
+        "pgcTotal": 0,
+        "team": "EDG",
+        "worldChamps": 0,
+        "image": "./images/players/Axidd.png",
+        "teamImage": "./images/teams/EDG.png"
+      },
+      "note": "",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Axidd"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "solo9",
+      "name": "Solo9",
+      "country": "CN",
+      "teams": [
+        "EDG"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/EDward_Gaming",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "Solo9",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "现役",
+        "birthday": "2003-04-28",
+        "pgcTotal": 0,
+        "team": "EDG",
+        "worldChamps": 0,
+        "image": "./images/players/Solo9.png",
+        "teamImage": "./images/teams/EDG.png"
+      },
+      "note": "已通过 EDG 战队页确认国籍与效力；完整个人生涯暂未取得，不推测其他队伍。 战队/赛事阵容页交叉核对；只收录已确认的经历，完整履历可能未全。",
+      "verification": {
+        "status": "roster_verified",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/EDward_Gaming"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "guotvt",
+      "name": "GuoTvT",
+      "country": "CN",
+      "teams": [
+        "EDG"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/PUBG_Champions_League/2026/Autumn",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "GuoTvT",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "现役",
+        "birthday": "2003-04-28",
+        "pgcTotal": 0,
+        "team": "EDG",
+        "worldChamps": 0,
+        "image": "./images/players/GuoTvT.png",
+        "teamImage": "./images/teams/EDG.png"
+      },
+      "note": "战队/赛事阵容页交叉核对；只收录已确认的经历，完整履历可能未全。",
+      "verification": {
+        "status": "roster_verified",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/PUBG_Champions_League/2026/Autumn"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "aixleft",
+      "name": "Aixleft",
+      "country": "CN",
+      "teams": [
+        "RNG",
+        "PERO"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/Aixleft",
+      "note": "",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Aixleft"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "Aixleft",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "birthday": "2001-10-24",
+        "pgcTotal": 4,
+        "team": "PeRo",
+        "worldChamps": 0,
+        "image": "./images/players/Aixleft.png",
+        "teamImage": "./images/teams/PeRo.png"
+      }
+    },
+    {
+      "id": "nannnn",
+      "name": "Nannnnn",
+      "country": "CN",
+      "teams": [
+        "COC",
+        "NH",
+        "PERO"
+      ],
+      "aliases": [
+        "Nannnn"
+      ],
+      "source": "https://liquipedia.net/pubg/Nannnnn",
+      "note": "",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Nannnnn"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "Nannnnn",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "birthday": "2000-10-07",
+        "pgcTotal": 5,
+        "team": "PeRo",
+        "worldChamps": 1,
+        "image": "./images/players/Nannnnn.png",
+        "teamImage": "./images/teams/PeRo.png"
+      }
+    },
+    {
+      "id": "mming",
+      "name": "MMing",
+      "country": "CN",
+      "teams": [
+        "NH",
+        "PERO"
+      ],
+      "aliases": [
+        "明明"
+      ],
+      "source": "https://liquipedia.net/pubg/MMing",
+      "note": "",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/MMing"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "MMing",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "现役",
+        "birthday": "2001-05-20",
+        "pgcTotal": 5,
+        "team": "PeRo",
+        "worldChamps": 1,
+        "image": "./images/players/MMing.png",
+        "teamImage": "./images/teams/PeRo.png"
+      }
+    },
+    {
+      "id": "cui71",
+      "name": "Cui71",
+      "country": "KR",
+      "teams": [
+        "DIP",
+        "OIG",
+        "LGE",
+        "TIAN",
+        "TMA",
+        "PERO"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/Cui71",
+      "note": "",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Cui71"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "Cui71",
+        "country": "韩国",
+        "area": "亚洲",
+        "careerState": "现役",
+        "birthday": "2000-11-18",
+        "pgcTotal": 4,
+        "team": "PeRo",
+        "worldChamps": 0,
+        "image": "./images/players/Cui71.png",
+        "teamImage": "./images/teams/PeRo.png"
+      }
+    },
+    {
+      "id": "i26v6",
+      "name": "i26v6",
+      "country": "KR",
+      "teams": [
+        "17",
+        "TYL",
+        "LGD",
+        "JSG",
+        "ZCG",
+        "JRG",
+        "PERO"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/I26v6",
+      "note": "",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/I26v6"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "i26v6",
+        "country": "韩国",
+        "area": "亚洲",
+        "careerState": "现役",
+        "birthday": "2005-05-20",
+        "pgcTotal": 0,
+        "team": "PeRo",
+        "worldChamps": 0,
+        "image": "./images/players/i26v6.png",
+        "teamImage": "./images/teams/PeRo.png"
+      }
+    },
+    {
+      "id": "04nb",
+      "name": "04NB",
+      "country": "CN",
+      "teams": [
+        "JSG",
+        "LGD",
+        "ZCG",
+        "PERO"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/04NB",
+      "note": "",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/04NB"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "04NB",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "现役",
+        "birthday": "2005-04-08",
+        "pgcTotal": 0,
+        "team": "PeRo",
+        "worldChamps": 0,
+        "image": "./images/players/04NB.png",
+        "teamImage": "./images/teams/PeRo.png"
+      }
+    },
+    {
+      "id": "summer",
+      "name": "Summer",
+      "country": "CN",
+      "teams": [
+        "VC",
+        "MCG",
+        "GFY",
+        "4AM",
+        "PERO",
+        "ZCG"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/Summer",
+      "note": "",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Summer"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "Summer",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "birthday": "1996-03-16",
+        "pgcTotal": 4,
+        "team": "PeRo",
+        "worldChamps": 0,
+        "image": "./images/players/Summer.png",
+        "teamImage": "./images/teams/PeRo.png"
+      }
+    },
+    {
+      "id": "myl",
+      "name": "Myl",
+      "country": "CN",
+      "teams": [
+        "IFTY",
+        "KG",
+        "PERO"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/MYL",
+      "note": "",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/MYL"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "Myl",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "birthday": "2000-12-11",
+        "pgcTotal": 2,
+        "team": "PeRo",
+        "worldChamps": 0,
+        "image": "./images/players/Myl.png",
+        "teamImage": "./images/teams/PeRo.png"
+      }
+    },
+    {
+      "id": "loong",
+      "name": "Loong",
+      "country": "CN",
+      "teams": [
+        "RNG",
+        "GFY",
+        "PERO"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/Loong",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "Loong",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "birthday": "2001-06-21",
+        "pgcTotal": 1,
+        "team": "PeRo",
+        "worldChamps": 0,
+        "image": "./images/players/Loong.png",
+        "teamImage": "./images/teams/PeRo.png"
+      },
+      "note": "",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Loong"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "ming",
+      "name": "Ming",
+      "country": "CN",
+      "teams": [
+        "BA",
+        "NEXT",
+        "PERO",
+        "GSW"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/Ming_%28Huang_Yiming%29",
+      "note": "",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Ming_%28Huang_Yiming%29"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "Ming",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "birthday": "2002-01-28",
+        "pgcTotal": 4,
+        "team": "GSW",
+        "worldChamps": 0,
+        "image": "./images/players/Ming.png",
+        "teamImage": "./images/teams/GSW.png"
+      }
+    },
+    {
+      "id": "az",
+      "name": "AZ",
+      "country": "CN",
+      "teams": [
+        "NEXT",
+        "PERO",
+        "TMA",
+        "CCG",
+        "TYL",
+        "NH",
+        "GSW"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/AZ_%28Chinese_player%29",
+      "note": "",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/AZ_%28Chinese_player%29"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "AZ",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "birthday": "2001-08-16",
+        "pgcTotal": 3,
+        "team": "PeRo",
+        "worldChamps": 0,
+        "image": "./images/players/AZ.png",
+        "teamImage": "./images/teams/PeRo.png"
+      }
+    },
+    {
+      "id": "xtong",
+      "name": "xTong",
+      "country": "CN",
+      "teams": [
+        "NEXT",
+        "TYL",
+        "CCG",
+        "GSW"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/XTong",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "xTong",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "birthday": "2000-07-16",
+        "pgcTotal": 2,
+        "team": "GSW",
+        "worldChamps": 0,
+        "image": "./images/players/xTong.png",
+        "teamImage": "./images/teams/GSW.png"
+      },
+      "note": "",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/XTong"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "hsmm",
+      "name": "HSmm",
+      "country": "CN",
+      "teams": [
+        "NEXT",
+        "COC",
+        "NH",
+        "4AM"
+      ],
+      "aliases": [
+        "HS",
+        "王焱文"
+      ],
+      "source": "https://liquipedia.net/pubg/HS",
+      "note": "",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/HS"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "HSmm",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "现役",
+        "birthday": "1999-09-06",
+        "pgcTotal": 4,
+        "team": "4AM",
+        "worldChamps": 1,
+        "image": "./images/players/HSmm.png",
+        "teamImage": "./images/teams/4AM.png"
+      }
+    },
+    {
+      "id": "shen",
+      "name": "Shen",
+      "country": "MY",
+      "teams": [
+        "TYL",
+        "DDT",
+        "WBG",
+        "4AM"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/Shen",
+      "note": "",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Shen"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "Shen",
+        "country": "马来西亚",
+        "area": "亚洲",
+        "careerState": "现役",
+        "birthday": "2004-04-06",
+        "pgcTotal": 4,
+        "team": "4AM",
+        "worldChamps": 0,
+        "image": "./images/players/Shen.png",
+        "teamImage": "./images/teams/4AM.png"
+      }
+    },
+    {
+      "id": "spaceman",
+      "name": "SpaceMan",
+      "country": "CN",
+      "teams": [
+        "DDT",
+        "WBG",
+        "TC",
+        "JDG",
+        "4AM"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/SpaceMan",
+      "note": "",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/SpaceMan"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "SpaceMan",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "现役",
+        "birthday": "2003-09-28",
+        "pgcTotal": 2,
+        "team": "4AM",
+        "worldChamps": 0,
+        "image": "./images/players/SpaceMan.png",
+        "teamImage": "./images/teams/4AM.png"
+      }
+    },
+    {
+      "id": "windah",
+      "name": "WINDah",
+      "country": "CN",
+      "teams": [
+        "DSS",
+        "NVG",
+        "4AM"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/WINDah",
+      "note": "",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/WINDah"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "WINDah",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "现役",
+        "birthday": "2005-10-14",
+        "pgcTotal": 0,
+        "team": "4AM",
+        "worldChamps": 0,
+        "image": "./images/players/WINDah.png",
+        "teamImage": "./images/teams/4AM.png"
+      }
+    },
+    {
+      "id": "godv",
+      "name": "GODV",
+      "country": "CN",
+      "teams": [
+        "4AM"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/GodV",
+      "note": "",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/GodV"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "GODV",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "birthday": "1997-07-16",
+        "pgcTotal": 2,
+        "team": "4AM",
+        "worldChamps": 0,
+        "image": "./images/players/GODV.png",
+        "teamImage": "./images/teams/4AM.png"
+      }
+    },
+    {
+      "id": "zgg01",
+      "name": "ZGG01",
+      "country": "CN",
+      "teams": [
+        "KG",
+        "4AM"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/ZGG01",
+      "note": "",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/ZGG01"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "ZGG01",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "age": 32,
+        "pgcTotal": 1,
+        "team": "4AM",
+        "worldChamps": 0,
+        "image": "./images/players/ZGG01.png",
+        "teamImage": "./images/teams/4AM.png"
+      }
+    },
+    {
+      "id": "xxxlu",
+      "name": "xxxLu",
+      "country": "CN",
+      "teams": [
+        "JTG",
+        "4AM"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/XxxLu",
+      "note": "",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/XxxLu"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "xxxLu",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "birthday": "1998-08-05",
+        "pgcTotal": 2,
+        "team": "4AM",
+        "worldChamps": 0,
+        "image": "./images/players/xxxLu.png",
+        "teamImage": "./images/teams/4AM.png"
+      }
+    },
+    {
+      "id": "forever",
+      "name": "Forever",
+      "country": "CN",
+      "teams": [
+        "LGD",
+        "4AM"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/Forever",
+      "note": "",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Forever"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "Forever",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "birthday": "1998-09-10",
+        "pgcTotal": 1,
+        "team": "4AM",
+        "worldChamps": 0,
+        "image": "./images/players/Forever.png",
+        "teamImage": "./images/teams/4AM.png"
+      }
+    },
+    {
+      "id": "longz",
+      "name": "Longz",
+      "country": "CN",
+      "teams": [
+        "XQ",
+        "4AM",
+        "TYL"
+      ],
+      "aliases": [
+        "Long"
+      ],
+      "source": "https://liquipedia.net/pubg/Long",
+      "note": "",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Long"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "Longz",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "age": 24,
+        "pgcTotal": 2,
+        "team": "4AM",
+        "worldChamps": 0,
+        "image": "./images/players/Longz.png",
+        "teamImage": "./images/teams/4AM.png"
+      }
+    },
+    {
+      "id": "bobo",
+      "name": "bobo",
+      "country": "CN",
+      "teams": [
+        "STG",
+        "4AM",
+        "TYL"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/Bobo",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "bobo",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "age": 23,
+        "pgcTotal": 2,
+        "team": "4AM",
+        "worldChamps": 0,
+        "image": "./images/players/bobo.png",
+        "teamImage": "./images/teams/4AM.png"
+      },
+      "note": "",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Bobo"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "atongmuu",
+      "name": "ATongMuu",
+      "country": "CN",
+      "teams": [
+        "GFY",
+        "TYL",
+        "4AM"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/ATongMuu",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "ATongMuu",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "birthday": "2002-06-15",
+        "pgcTotal": 2,
+        "team": "4AM",
+        "worldChamps": 0,
+        "image": "./images/players/ATongMuu.png",
+        "teamImage": "./images/teams/4AM.png"
+      },
+      "note": "",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/ATongMuu"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "ns12",
+      "name": "Ns12",
+      "country": "CN",
+      "teams": [
+        "COC",
+        "4AM",
+        "CCG",
+        "TC",
+        "JDG"
+      ],
+      "aliases": [
+        "Pignan"
+      ],
+      "source": "https://liquipedia.net/pubg/Pignan",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "Ns12",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "age": 24,
+        "pgcTotal": 0,
+        "team": "JDG",
+        "worldChamps": 0,
+        "image": "./images/players/Ns12.png",
+        "teamImage": "./images/teams/JDG.png"
+      },
+      "note": "",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Pignan"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "dec12th",
+      "name": "Dec12th",
+      "country": "CN",
+      "teams": [
+        "BA",
+        "LYG",
+        "RS",
+        "XCG",
+        "STG",
+        "NH",
+        "TYL",
+        "JDG"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/Dec12th",
+      "note": "",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Dec12th"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "Dec12th",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "现役",
+        "birthday": "1998-11-30",
+        "pgcTotal": 2,
+        "team": "JDG",
+        "worldChamps": 0,
+        "image": "./images/players/Dec12th.png",
+        "teamImage": "./images/teams/JDG.png"
+      }
+    },
+    {
+      "id": "cold119",
+      "name": "Cold119",
+      "country": "CN",
+      "teams": [
+        "DDT",
+        "WBG",
+        "LGD",
+        "ZCG",
+        "TC",
+        "JDG"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/Cold119",
+      "note": "",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Cold119"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "Cold119",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "现役",
+        "birthday": "2001-01-19",
+        "pgcTotal": 1,
+        "team": "JDG",
+        "worldChamps": 0,
+        "image": "./images/players/Cold119.png",
+        "teamImage": "./images/teams/JDG.png"
+      }
+    },
+    {
+      "id": "suze",
+      "name": "SuZe",
+      "country": "CN",
+      "teams": [
+        "SYXL",
+        "ZK",
+        "TC",
+        "JDG"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/SuZe",
+      "note": "",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/SuZe"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "SuZe",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "现役",
+        "birthday": "2001-09-04",
+        "pgcTotal": 2,
+        "team": "JDG",
+        "worldChamps": 0,
+        "image": "./images/players/SuZe.png",
+        "teamImage": "./images/teams/JDG.png"
+      }
+    },
+    {
+      "id": "nanss",
+      "name": "nanss",
+      "country": "CN",
+      "teams": [
+        "EDG",
+        "JDG"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/Nanss",
+      "note": "",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Nanss"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "nanss",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "现役",
+        "birthday": "2007-05-13",
+        "pgcTotal": 0,
+        "team": "JDG",
+        "worldChamps": 0,
+        "image": "./images/players/nanss.png",
+        "teamImage": "./images/teams/JDG.png"
+      }
+    },
+    {
+      "id": "1ee",
+      "name": "1ee",
+      "country": "CN",
+      "teams": [
+        "TYL"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/Tianming_Cup/2026/Season_9",
+      "note": "已通过 Liquipedia 赛事阵容核对国籍与 TYL 效力关系；未取得完整个人历史页，不推测其他战队。 战队/赛事阵容页交叉核对，履历可能未全。",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "roster_verified",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Tianming_Cup/2026/Season_9"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "1ee",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "现役",
+        "birthday": "2001-10-29",
+        "pgcTotal": 0,
+        "team": "TYLOO",
+        "worldChamps": 0,
+        "image": "./images/players/1ee.png",
+        "teamImage": "./images/teams/TYLOO.png"
+      }
+    },
+    {
+      "id": "onedragon",
+      "name": "OneDragon",
+      "country": "CN",
+      "teams": [
+        "TYL"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/Tianming_Cup/2026/Season_9",
+      "note": "已通过 Liquipedia 赛事阵容核对国籍与 TYL 效力关系；未取得完整个人历史页，不推测其他战队。 战队/赛事阵容页交叉核对，履历可能未全。",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "roster_verified",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Tianming_Cup/2026/Season_9"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "OneDragon",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "现役",
+        "birthday": "2004-02-26",
+        "pgcTotal": 0,
+        "team": "TYLOO",
+        "worldChamps": 0,
+        "image": "./images/players/OneDragon.png",
+        "teamImage": "./images/teams/TYLOO.png"
+      }
+    },
+    {
+      "id": "kkong",
+      "name": "KKong",
+      "country": "CN",
+      "teams": [
+        "TYL"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/Tianming_Cup/2026/Season_9",
+      "note": "已通过 Liquipedia 赛事阵容核对国籍与 TYL 效力关系；未取得完整个人历史页，不推测其他战队。 战队/赛事阵容页交叉核对，履历可能未全。",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "roster_verified",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Tianming_Cup/2026/Season_9"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "KKong",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "现役",
+        "birthday": "2005-08-31",
+        "pgcTotal": 0,
+        "team": "TYLOO",
+        "worldChamps": 0,
+        "image": "./images/players/KKong.png",
+        "teamImage": "./images/teams/TYLOO.png"
+      }
+    },
+    {
+      "id": "haoskr",
+      "name": "HaoSkr",
+      "country": "CN",
+      "teams": [
+        "TIAN",
+        "HQ",
+        "TM",
+        "TYL"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/HaoSkr",
+      "note": "",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/HaoSkr"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "HaoSkr",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "现役",
+        "birthday": "2003-12-14",
+        "pgcTotal": 0,
+        "team": "TYLOO",
+        "worldChamps": 0,
+        "image": "./images/players/HaoSkr.png",
+        "teamImage": "./images/teams/TYLOO.png"
+      }
+    },
+    {
+      "id": "zpy",
+      "name": "ZpYan1",
+      "country": "CN",
+      "teams": [
+        "RNG",
+        "NH",
+        "4AM"
+      ],
+      "aliases": [
+        "ZPY",
+        "周品言"
+      ],
+      "source": "https://liquipedia.net/pubg/ZpYan1",
+      "note": "",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/ZpYan1"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "ZpYan1",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "birthday": "2001-07-18",
+        "pgcTotal": 5,
+        "team": "GSW",
+        "worldChamps": 1,
+        "image": "./images/players/ZpYan1.png",
+        "teamImage": "./images/teams/GSW.png"
+      }
+    },
+    {
+      "id": "xiaohaixxxx",
+      "name": "xiaohaixxxx",
+      "country": "CN",
+      "teams": [
+        "OMG",
+        "4AM",
+        "TMA"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/Xiaohaixxxx",
+      "note": "",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Xiaohaixxxx"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "xiaohaixxxx",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "birthday": "1998-05-18",
+        "pgcTotal": 1,
+        "team": "AVG",
+        "worldChamps": 1,
+        "image": "./images/players/xiaohaixxxx.png",
+        "teamImage": "./images/teams/AVG.png"
+      }
+    },
+    {
+      "id": "silentbt",
+      "name": "SilentBT",
+      "country": "CN",
+      "teams": [
+        "OMG"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/SilentBT",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "SilentBT",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "age": 36,
+        "pgcTotal": 0,
+        "team": "OMG",
+        "worldChamps": 1,
+        "image": "./images/players/SilentBT.png",
+        "teamImage": "./images/teams/OMG.png"
+      },
+      "note": "",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/SilentBT"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "xiaorong",
+      "name": "Xiaorong",
+      "country": "CN",
+      "teams": [
+        "OMG",
+        "GT"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/Oh_My_God",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "Xiaorong",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "age": 32,
+        "pgcTotal": 0,
+        "team": "OMG",
+        "worldChamps": 1,
+        "image": "./images/players/Xiaorong.png",
+        "teamImage": "./images/teams/OMG.png"
+      },
+      "note": "仅计端游选手履历，不混入同名手游经历。 战队/赛事阵容页交叉核对；只收录已确认的经历，完整履历可能未全。",
+      "verification": {
+        "status": "roster_verified",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Oh_My_God",
+          "https://liquipedia.net/pubg/PUBG_Global_Invitational/2018"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "clouds",
+      "name": "Clouds",
+      "country": "CN",
+      "teams": [
+        "OMG"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/Clouds",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "Clouds",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "age": 28,
+        "pgcTotal": 0,
+        "team": "WBG",
+        "worldChamps": 0,
+        "image": "./images/players/Clouds.png",
+        "teamImage": "./images/teams/WBG.png"
+      },
+      "note": "",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Clouds"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "shmily",
+      "name": "Shmily",
+      "country": "CN",
+      "teams": [
+        "DGG",
+        "OMG",
+        "D7G",
+        "XJ",
+        "LYG"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/Shmily",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "Shmily",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "age": 33,
+        "pgcTotal": 0,
+        "team": "LYG",
+        "worldChamps": 0,
+        "image": "./images/players/Shmily.png",
+        "teamImage": "./images/teams/LYG.png"
+      },
+      "note": "Nova Esports 为教练任职，不计入选手履历。",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Shmily",
+          "https://liquipedia.net/pubg/Portal%3APlayers/Asia"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "jiaoyang",
+      "name": "JiaoYang",
+      "country": "CN",
+      "teams": [
+        "AG",
+        "IFTY",
+        "TYL"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/JiaoYang",
+      "note": "",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/JiaoYang"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "JiaoYang",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "birthday": "2000-09-13",
+        "pgcTotal": 3,
+        "team": "AVG",
+        "worldChamps": 0,
+        "image": "./images/players/JiaoYang.png",
+        "teamImage": "./images/teams/AVG.png"
+      }
+    },
+    {
+      "id": "crazy112",
+      "name": "CRAZY112",
+      "country": "CN",
+      "teams": [
+        "LYG",
+        "4AM",
+        "TMA"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/CRAZY112",
+      "note": "",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/CRAZY112"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "CRAZY112",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "birthday": "1998-11-02",
+        "pgcTotal": 2,
+        "team": "AVG",
+        "worldChamps": 0,
+        "image": "./images/players/CRAZY112.png",
+        "teamImage": "./images/teams/AVG.png"
+      }
+    },
+    {
+      "id": "cc108",
+      "name": "CC108",
+      "country": "CN",
+      "teams": [
+        "NH",
+        "TIAN",
+        "GSW"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/CC108",
+      "note": "",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/CC108"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "CC108",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "birthday": "2002-07-24",
+        "pgcTotal": 4,
+        "team": "GSW",
+        "worldChamps": 0,
+        "image": "./images/players/CC108.png",
+        "teamImage": "./images/teams/GSW.png"
+      }
+    },
+    {
+      "id": "sia",
+      "name": "SIA",
+      "country": "CN",
+      "teams": [
+        "LYG",
+        "SSS",
+        "1246",
+        "DIP",
+        "TSG",
+        "TYL",
+        "CCG"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/SIA",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "SIA",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "现役",
+        "age": 25,
+        "pgcTotal": 1,
+        "team": "Xmen",
+        "worldChamps": 0,
+        "image": "./images/players/SIA.png",
+        "teamImage": "./images/teams/Xmen.png"
+      },
+      "note": "",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/SIA"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "volibear",
+      "name": "VoliBEAR",
+      "country": "CN",
+      "teams": [
+        "TSG",
+        "TYL",
+        "IFTY",
+        "SGD",
+        "TSG(新)"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/VoliBEAR",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "VoliBEAR",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "age": 26,
+        "pgcTotal": 0,
+        "team": "TSG",
+        "worldChamps": 0,
+        "image": "./images/players/VoliBEAR.png",
+        "teamImage": "./images/teams/TSG.png"
+      },
+      "note": "",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/VoliBEAR"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "911x",
+      "name": "911x",
+      "country": "CN",
+      "teams": [
+        "TSG",
+        "GFY",
+        "TSG(新)"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/911x",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "911x",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "age": 26,
+        "pgcTotal": 0,
+        "team": "TSG",
+        "worldChamps": 0,
+        "image": "./images/players/911x.png",
+        "teamImage": "./images/teams/TSG.png"
+      },
+      "note": "",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/911x"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "lionkk",
+      "name": "lionkk",
+      "country": "CN",
+      "teams": [
+        "OMG",
+        "WBG",
+        "ZK",
+        "PERO"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/Lionkk",
+      "note": "",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Lionkk"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "lionkk",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "birthday": "1998-05-02",
+        "pgcTotal": 0,
+        "team": "-",
+        "worldChamps": 1,
+        "image": "./images/players/lionkk.png",
+        "teamImage": ""
+      }
+    },
+    {
+      "id": "longskr",
+      "name": "LongSkr",
+      "country": "CN",
+      "teams": [
+        "IFTY",
+        "TIAN",
+        "NH",
+        "CCG",
+        "EDG"
+      ],
+      "aliases": [
+        "龙四哥"
+      ],
+      "source": "https://liquipedia.net/pubg/LongSkr",
+      "note": "",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/LongSkr"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "LongSkr",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "birthday": "2000-01-02",
+        "pgcTotal": 1,
+        "team": "EDG",
+        "worldChamps": 0,
+        "image": "./images/players/LongSkr.png",
+        "teamImage": "./images/teams/EDG.png"
+      }
+    },
+    {
+      "id": "boliang",
+      "name": "Boliang",
+      "country": "CN",
+      "teams": [
+        "IFTY",
+        "WUK",
+        "SGD",
+        "SYXL",
+        "CCG"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/Boliang",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "Boliang",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "现役",
+        "birthday": "1996-04-26",
+        "pgcTotal": 2,
+        "team": "WBG",
+        "worldChamps": 0,
+        "image": "./images/players/Boliang.png",
+        "teamImage": "./images/teams/WBG.png"
+      },
+      "note": "",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Boliang"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "L1nnnn",
+      "name": "L1nnnn",
+      "country": "CN",
+      "teams": [
+        "IFTY",
+        "I7",
+        "XMEN"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/Infantry",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "L1nnnn",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "birthday": "2000-10-26",
+        "pgcTotal": 1,
+        "team": "Xmen",
+        "worldChamps": 0,
+        "image": "./images/players/L1nnnn.png",
+        "teamImage": "./images/teams/Xmen.png"
+      },
+      "note": "战队/赛事阵容页交叉核对；只收录已确认的经历，完整履历可能未全。",
+      "verification": {
+        "status": "roster_verified",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Infantry",
+          "https://liquipedia.net/pubg/BOSS_Training_Camp/2023/Season_5/Phase_5",
+          "https://liquipedia.net/pubg/Xavage_Men_Esports"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "Lulualways",
+      "name": "LuLualways",
+      "country": "CN",
+      "teams": [
+        "COC",
+        "TITAN",
+        "TMA",
+        "GSW",
+        "ZCG",
+        "LGD",
+        "TYL"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/LuLualways",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "LuLualways",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "birthday": "2000-07-10",
+        "pgcTotal": 1,
+        "team": "TYLOO",
+        "worldChamps": 0,
+        "image": "./images/players/LuLualways.png",
+        "teamImage": "./images/teams/TYLOO.png"
+      },
+      "note": "",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/LuLualways"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "yuppie",
+      "name": "YUPPIE",
+      "country": "CN",
+      "teams": [
+        "1124",
+        "DAE",
+        "KL",
+        "TITAN",
+        "KX",
+        "TMA",
+        "YBG",
+        "SMS",
+        "ZCG",
+        "LGD",
+        "WBG"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/YUPPIE",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "YUPPIE",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "birthday": "2001-02-08",
+        "pgcTotal": 2,
+        "team": "WBG",
+        "worldChamps": 0,
+        "image": "./images/players/YUPPIE.png",
+        "teamImage": "./images/teams/WBG.png"
+      },
+      "note": "",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/YUPPIE"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "hang2y",
+      "name": "Hang2y",
+      "country": "CN",
+      "teams": [
+        "MCG",
+        "TMA",
+        "CTG"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/PUBG_Continental_Series/2021/Series_5/Asia",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "Hang2y",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "age": 26,
+        "pgcTotal": 1,
+        "team": "CTG",
+        "worldChamps": 0,
+        "image": "./images/players/Hang2y.png",
+        "teamImage": "./images/teams/CTG.png"
+      },
+      "note": "战队/赛事阵容页交叉核对；只收录已确认的经历，完整履历可能未全。",
+      "verification": {
+        "status": "roster_verified",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/PUBG_Continental_Series/2021/Series_5/Asia",
+          "https://liquipedia.net/pubg/TakeMeAway_Gaming",
+          "https://liquipedia.net/pubg/Change_The_Game"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "evillee",
+      "name": "EviLLee",
+      "country": "CN",
+      "teams": [
+        "AXI",
+        "KG",
+        "LGE",
+        "MCG",
+        "CTG"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/EviLLee",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "EviLLee",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "age": 25,
+        "pgcTotal": 1,
+        "team": "WBG",
+        "worldChamps": 0,
+        "image": "./images/players/EviLLee.png",
+        "teamImage": "./images/teams/WBG.png"
+      },
+      "note": "",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/EviLLee"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "tanki995",
+      "name": "Tanki995",
+      "country": "CN",
+      "teams": [
+        "GKS",
+        "MCG",
+        "XCG"
+      ],
+      "aliases": [
+        "Tank",
+        "Tanko_O",
+        "Pandora"
+      ],
+      "source": "https://liquipedia.net/pubg/Tank",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "Tanki995",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "age": 25,
+        "pgcTotal": 1,
+        "team": "XCG",
+        "worldChamps": 0,
+        "image": "./images/players/Tanki995.png",
+        "teamImage": "./images/teams/XCG.png"
+      },
+      "note": "",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Tank"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "lingd",
+      "name": "LingD",
+      "country": "CN",
+      "teams": [
+        "MCG",
+        "TSG(新)"
+      ],
+      "aliases": [
+        "LingDuuuuuu"
+      ],
+      "source": "https://liquipedia.net/pubg/PUBG_Global_Invitational.S/2021",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "LingD",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "age": 25,
+        "pgcTotal": 1,
+        "team": "TSG",
+        "worldChamps": 0,
+        "image": "./images/players/LingD.png",
+        "teamImage": "./images/teams/TSG.png"
+      },
+      "note": "LingDuuuuuu 为赛事中使用的 ID。 战队/赛事阵容页交叉核对；只收录已确认的经历，完整履历可能未全。",
+      "verification": {
+        "status": "roster_verified",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/PUBG_Global_Invitational.S/2021",
+          "https://liquipedia.net/pubg/Portal%3APlayers/Asia"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "linshu",
+      "name": "LinShu",
+      "country": "CN",
+      "teams": [
+        "VG",
+        "SNAKE",
+        "TIAN"
+      ],
+      "aliases": [
+        "LinShuNN"
+      ],
+      "source": "https://liquipedia.net/pubg/LinShuNN",
+      "note": "",
+      "origin": "pcl_provided",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/LinShuNN"
+        ],
+        "scope": "知名职业战队；正选、替补、试训、租借；不计教练、主播、纯不活跃任职"
+      },
+      "sourceRecord": {
+        "playerId": "LinShu",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "birthday": "2000-09-12",
+        "pgcTotal": 2,
+        "team": "Tianba",
+        "worldChamps": 0,
+        "image": "./images/players/LinShu.png",
+        "teamImage": "./images/teams/Tianba.png"
+      }
+    },
+    {
+      "id": "lurena",
+      "name": "LuRenA",
+      "country": "CN",
+      "teams": [
+        "TIAN",
+        "SYXL",
+        "ZK",
+        "SMS"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/Tianba",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "LuRenA",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "age": 29,
+        "pgcTotal": 1,
+        "team": "SMS",
+        "worldChamps": 0,
+        "image": "./images/players/LuRenA.png",
+        "teamImage": "./images/teams/SMS.png"
+      },
+      "note": "战队/赛事阵容页交叉核对；只收录已确认的经历，完整履历可能未全。",
+      "verification": {
+        "status": "roster_verified",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Tianba",
+          "https://liquipedia.net/pubg/Portal%3APlayers/APAC",
+          "https://liquipedia.net/pubg/PUBG_Champions_League/2024/Autumn"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "mingz1",
+      "name": "mingz1",
+      "country": "CN",
+      "teams": [
+        "FPX",
+        "WBG",
+        "TIAN",
+        "PERO",
+        "SGD"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/Mingz1",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "mingz1",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "age": 26,
+        "pgcTotal": 2,
+        "team": "SGD",
+        "worldChamps": 0,
+        "image": "./images/players/mingz1.png",
+        "teamImage": "./images/teams/SGD.png"
+      },
+      "note": "",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Mingz1"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "pengegm",
+      "name": "PengEGM",
+      "country": "CN",
+      "teams": [
+        "TSG",
+        "TYL",
+        "MCG",
+        "GFY",
+        "TSG(新)",
+        "GQG"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/PengEGM",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "PengEGM",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "age": 25,
+        "pgcTotal": 0,
+        "team": "GQG",
+        "worldChamps": 0,
+        "image": "./images/players/PengEGM.png",
+        "teamImage": "./images/teams/GQG.png"
+      },
+      "note": "",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/PengEGM"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "mamu",
+      "name": "Mamu",
+      "country": "CN",
+      "teams": [
+        "PERO",
+        "DDT",
+        "WBG"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/Petrichor_Road",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "Mamu",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "age": 27,
+        "pgcTotal": 2,
+        "team": "WBG",
+        "worldChamps": 0,
+        "image": "./images/players/Mamu.png",
+        "teamImage": "./images/teams/WBG.png"
+      },
+      "note": "战队/赛事阵容页交叉核对；只收录已确认的经历，完整履历可能未全。",
+      "verification": {
+        "status": "roster_verified",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Petrichor_Road",
+          "https://liquipedia.net/pubg/DD_Team",
+          "https://liquipedia.net/pubg/Weibo_Gaming"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "paopao",
+      "name": "PaoPao",
+      "country": "CN",
+      "teams": [
+        "RB",
+        "CTG",
+        "TIAN",
+        "WBG"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/PaoPao",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "PaoPao",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "age": 25,
+        "pgcTotal": 2,
+        "team": "WBG",
+        "worldChamps": 0,
+        "image": "./images/players/PaoPao.png",
+        "teamImage": "./images/teams/WBG.png"
+      },
+      "note": "",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/PaoPao"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "zyy",
+      "name": "Zyy",
+      "country": "CN",
+      "teams": [
+        "HQ",
+        "TIAN",
+        "WBG"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/Zyy",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "Zyy",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "age": 21,
+        "pgcTotal": 2,
+        "team": "WBG",
+        "worldChamps": 0,
+        "image": "./images/players/Zyy.png",
+        "teamImage": "./images/teams/WBG.png"
+      },
+      "note": "",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Zyy"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "aries",
+      "name": "Aries",
+      "country": "CN",
+      "teams": [
+        "XLG",
+        "NIP",
+        "CTG"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/Aries_%28Chinese_player%29",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "Aries",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "age": 26,
+        "pgcTotal": 1,
+        "team": "CTG",
+        "worldChamps": 0,
+        "image": "./images/players/Aries.png",
+        "teamImage": "./images/teams/CTG.png"
+      },
+      "note": "",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Aries_%28Chinese_player%29"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "xiaohuxxxx",
+      "name": "XiaoHuxxXX",
+      "country": "CN",
+      "teams": [
+        "GQG"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/PUBG_Race/2026/PGS_Prelude/1",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "XiaoHuxxXX",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "现役",
+        "age": 27,
+        "pgcTotal": 0,
+        "team": "GQG",
+        "worldChamps": 0,
+        "image": "./images/players/XiaoHuxxXX.png",
+        "teamImage": "./images/teams/GQG.png"
+      },
+      "note": "战队/赛事阵容页交叉核对；只收录已确认的经历，完整履历可能未全。",
+      "verification": {
+        "status": "roster_verified",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/PUBG_Race/2026/PGS_Prelude/1",
+          "https://liquipedia.net/pubg/PUBG_Champions_League/2026/Autumn"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "tang",
+      "name": "Tang",
+      "country": "CN",
+      "teams": [
+        "RNG",
+        "LYG",
+        "TIAN",
+        "TMA"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/Tang",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "Tang",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "birthday": "2002-03-13",
+        "pgcTotal": 1,
+        "team": "Tianba",
+        "worldChamps": 0,
+        "image": "./images/players/Tang.png",
+        "teamImage": "./images/teams/Tianba.png"
+      },
+      "note": "",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Tang"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "running",
+      "name": "Running",
+      "country": "CN",
+      "teams": [
+        "SSS",
+        "KZ",
+        "V5",
+        "WBG",
+        "CTG"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/Running",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "Running",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "birthday": "1996-12-04",
+        "pgcTotal": 0,
+        "team": "CTG",
+        "worldChamps": 0,
+        "image": "./images/players/Running.png",
+        "teamImage": "./images/teams/CTG.png"
+      },
+      "note": "",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Running"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "cobra",
+      "name": "Cobra",
+      "country": "CN",
+      "teams": [
+        "XQ",
+        "ARK",
+        "KX",
+        "TMA"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/Cobra",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "Cobra",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "age": 25,
+        "pgcTotal": 1,
+        "team": "TMA",
+        "worldChamps": 0,
+        "image": "./images/players/Cobra.png",
+        "teamImage": "./images/teams/TMA.png"
+      },
+      "note": "",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Cobra",
+          "https://liquipedia.net/pubg/TakeMeAway_Gaming"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "lanren",
+      "name": "Lanren",
+      "country": "CN",
+      "teams": [
+        "17",
+        "SMG",
+        "KX"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/17_Gaming",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "Lanren",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "age": 26,
+        "pgcTotal": 1,
+        "team": "MnG",
+        "worldChamps": 0,
+        "image": "./images/players/Lanren.png",
+        "teamImage": "./images/teams/MnG.png"
+      },
+      "note": "原始名单中的 MnG 暂未确认，未加入判题履历。 战队/赛事阵容页交叉核对；只收录已确认的经历，完整履历可能未全。",
+      "verification": {
+        "status": "roster_verified",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/17_Gaming",
+          "https://liquipedia.net/pubg/Still_Moving_Under_Gunfire"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "yuren",
+      "name": "Yuren",
+      "country": "CN",
+      "teams": [
+        "XQ",
+        "ARK",
+        "KX",
+        "RS",
+        "I7"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/Yuren",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "Yuren",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "birthday": "1997-04-06",
+        "pgcTotal": 1,
+        "team": "i7",
+        "worldChamps": 0,
+        "image": "./images/players/Yuren.png",
+        "teamImage": "./images/teams/i7.png"
+      },
+      "note": "",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Yuren"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "grayyyyyy",
+      "name": "Grayyyyyy",
+      "country": "CN",
+      "teams": [
+        "IFTY",
+        "GFY",
+        "PERO",
+        "JUFU",
+        "JSG"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/Infantry",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "Grayyyyyy",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "age": 24,
+        "pgcTotal": 0,
+        "team": "JSG",
+        "worldChamps": 0,
+        "image": "./images/players/Grayyyyyy.png",
+        "teamImage": "./images/teams/JSG.png"
+      },
+      "note": "战队/赛事阵容页交叉核对；只收录已确认的经历，完整履历可能未全。",
+      "verification": {
+        "status": "roster_verified",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Infantry",
+          "https://liquipedia.net/pubg/Games_Forever_Young",
+          "https://liquipedia.net/pubg/Petrichor_Road",
+          "https://liquipedia.net/pubg/Portal%3APlayers/APAC"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "wufeng",
+      "name": "WuFeng",
+      "country": "CN",
+      "teams": [
+        "QM-CN"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/WuFeng",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "WuFeng",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "age": 29,
+        "pgcTotal": 1,
+        "team": "QM",
+        "worldChamps": 0,
+        "image": "./images/players/WuFeng.png",
+        "teamImage": "./images/teams/QM.png"
+      },
+      "note": "",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/WuFeng"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "jiyy",
+      "name": "JiYy",
+      "country": "CN",
+      "teams": [
+        "QM-CN"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/QM_Gaming",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "JiYy",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "age": 31,
+        "pgcTotal": 1,
+        "team": "QM",
+        "worldChamps": 0,
+        "image": "./images/players/JiYy.png",
+        "teamImage": "./images/teams/QM.png"
+      },
+      "note": "QM 指全民 QuanMing Gaming，与 Question Mark 分开。 战队/赛事阵容页交叉核对；只收录已确认的经历，完整履历可能未全。",
+      "verification": {
+        "status": "roster_verified",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/QM_Gaming"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "l1geee",
+      "name": "L1gEEE",
+      "country": "CN",
+      "teams": [
+        "QM-CN"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/QM_Gaming",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "L1gEEE",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "age": 30,
+        "pgcTotal": 1,
+        "team": "QM",
+        "worldChamps": 0,
+        "image": "./images/players/L1gEEE.png",
+        "teamImage": "./images/teams/QM.png"
+      },
+      "note": "QM 指全民 QuanMing Gaming，与 Question Mark 分开。 战队/赛事阵容页交叉核对；只收录已确认的经历，完整履历可能未全。",
+      "verification": {
+        "status": "roster_verified",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/QM_Gaming"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "yizz",
+      "name": "Yizz",
+      "country": "CN",
+      "teams": [
+        "QM-CN"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/QM_Gaming",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "Yizz",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "age": 31,
+        "pgcTotal": 1,
+        "team": "QM",
+        "worldChamps": 0,
+        "image": "./images/players/Yizz.png",
+        "teamImage": "./images/teams/QM.png"
+      },
+      "note": "QM 指全民 QuanMing Gaming，与 Question Mark 分开。 战队/赛事阵容页交叉核对；只收录已确认的经历，完整履历可能未全。",
+      "verification": {
+        "status": "roster_verified",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/QM_Gaming"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "yuyu",
+      "name": "Yuyu",
+      "country": "CN",
+      "teams": [
+        "ANS",
+        "BA",
+        "TSG",
+        "TYL",
+        "CTG",
+        "CCG",
+        "SMS",
+        "EDG"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/Yuyu",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "Yuyu",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "现役",
+        "birthday": "2000-04-17",
+        "pgcTotal": 0,
+        "team": "XTR",
+        "worldChamps": 0,
+        "image": "./images/players/Yuyu.png",
+        "teamImage": "./images/teams/XTR.png"
+      },
+      "note": "",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Yuyu"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "hs01",
+      "name": "HS01",
+      "country": "CN",
+      "teams": [
+        "GQG"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/PUBG_Race/2026/PGS_Prelude/1",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "HS01",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "现役",
+        "birthday": "2007-07-11",
+        "pgcTotal": 0,
+        "team": "GQG",
+        "worldChamps": 0,
+        "image": "./images/players/HS01.png",
+        "teamImage": "./images/teams/GQG.png"
+      },
+      "note": "战队/赛事阵容页交叉核对；只收录已确认的经历，完整履历可能未全。",
+      "verification": {
+        "status": "roster_verified",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/PUBG_Race/2026/PGS_Prelude/1",
+          "https://liquipedia.net/pubg/PUBG_Champions_League/2026/Autumn"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "lu-pcl",
+      "name": "Lu(PCL)",
+      "country": "CN",
+      "teams": [
+        "GQG"
+      ],
+      "aliases": [
+        "Lu",
+        "LU"
+      ],
+      "source": "https://liquipedia.net/pubg/PUBG_Champions_League/2026/Spring",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "Lu(PCL)",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "现役",
+        "birthday": "2005-06-05",
+        "pgcTotal": 0,
+        "team": "GQG",
+        "worldChamps": 0,
+        "image": "./images/players/Lu(PCL).png",
+        "teamImage": "./images/teams/GQG.png"
+      },
+      "note": "中国 PCL 选手 Lu，和俄罗斯 Lu 分开。 战队/赛事阵容页交叉核对；只收录已确认的经历，完整履历可能未全。",
+      "verification": {
+        "status": "roster_verified",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/PUBG_Champions_League/2026/Spring",
+          "https://liquipedia.net/pubg/PUBG_Champions_League/2026/Autumn"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "dong",
+      "name": "Dong",
+      "country": "CN",
+      "teams": [
+        "GQG"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/PUBG_Race/2026/PGS_Prelude/1",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "Dong",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "现役",
+        "birthday": "2006-12-26",
+        "pgcTotal": 0,
+        "team": "GQG",
+        "worldChamps": 0,
+        "image": "./images/players/Dong.png",
+        "teamImage": "./images/teams/GQG.png"
+      },
+      "note": "战队/赛事阵容页交叉核对；只收录已确认的经历，完整履历可能未全。",
+      "verification": {
+        "status": "roster_verified",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/PUBG_Race/2026/PGS_Prelude/1",
+          "https://liquipedia.net/pubg/PUBG_Champions_League/2026/Autumn"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "129",
+      "name": "129",
+      "country": "CN",
+      "teams": [
+        "NH"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/PUBG_Champions_League/2026/Autumn",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "129",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "现役",
+        "age": 19,
+        "pgcTotal": 0,
+        "team": "NH",
+        "worldChamps": 0,
+        "image": "./images/players/129.png",
+        "teamImage": "./images/teams/NH.png"
+      },
+      "note": "战队/赛事阵容页交叉核对；只收录已确认的经历，完整履历可能未全。",
+      "verification": {
+        "status": "roster_verified",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/PUBG_Champions_League/2026/Autumn"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "77aws",
+      "name": "77aws",
+      "country": "CN",
+      "teams": [
+        "NH"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/PUBG_Race/2026/PGS_Prelude/3",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "77aws",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "现役",
+        "birthday": "2006-10-13",
+        "pgcTotal": 0,
+        "team": "XTR",
+        "worldChamps": 0,
+        "image": "./images/players/77aws.png",
+        "teamImage": "./images/teams/XTR.png"
+      },
+      "note": "原始名单中的 XTR 暂未确认，未加入判题履历。 战队/赛事阵容页交叉核对；只收录已确认的经历，完整履历可能未全。",
+      "verification": {
+        "status": "roster_verified",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/PUBG_Race/2026/PGS_Prelude/3"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "16kk",
+      "name": "16KK",
+      "country": "CN",
+      "teams": [
+        "Lstars",
+        "QM",
+        "OX",
+        "COC",
+        "LGE",
+        "MnG",
+        "TBB",
+        "CCG",
+        "NH"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/Tianming_Cup/Season_10",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "16KK",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "age": 23,
+        "pgcTotal": 0,
+        "team": "NH",
+        "worldChamps": 0,
+        "image": "./images/players/16KK.png",
+        "teamImage": "./images/teams/NH.png"
+      },
+      "note": "早期战队按赛事出场记录收录。2024 年由 TBB 转入 CCG，2025 年 1 月加入 NH。",
+      "verification": {
+        "status": "roster_verified",
+        "checkedAt": "2026-11-04",
+        "sources": [
+          "https://pubgesports.com/en/players/1143",
+          "https://liquipedia.net/pubg/16KK",
+          "https://liquipedia.net/pubg/16KK/Results",
+          "https://liquipedia.net/pubg/Esports_World_Cup/2024/China_Qualifier",
+          "https://liquipedia.net/pubg/Tianming_Cup/Season_10",
+          "https://liquipedia.net/pubg/Esports_World_Cup/2025/China_Qualifier"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "donzz",
+      "name": "Donzz",
+      "country": "CN",
+      "teams": [
+        "STG",
+        "TC",
+        "JDG",
+        "WBG"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/Donzz",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "Donzz",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "现役",
+        "birthday": "2005-08-31",
+        "pgcTotal": 0,
+        "team": "JDG",
+        "worldChamps": 0,
+        "image": "./images/players/Donzz.png",
+        "teamImage": "./images/teams/JDG.png"
+      },
+      "note": "",
+      "verification": {
+        "status": "personal_history",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Donzz"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "hhui",
+      "name": "Hhui",
+      "country": "CN",
+      "teams": [
+        "WBG",
+        "EDG"
+      ],
+      "aliases": [
+        "Hhuixx7"
+      ],
+      "source": "https://liquipedia.net/pubg/PUBG_Race/2026/PGS_Prelude/1",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "Hhui",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "现役",
+        "birthday": "2004-07-21",
+        "pgcTotal": 0,
+        "team": "EDG",
+        "worldChamps": 0,
+        "image": "./images/players/Hhui.png",
+        "teamImage": "./images/teams/EDG.png"
+      },
+      "note": "按 Hhui / Hhuixx7 阵容记录核对。 战队/赛事阵容页交叉核对；只收录已确认的经历，完整履历可能未全。",
+      "verification": {
+        "status": "roster_verified",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/PUBG_Race/2026/PGS_Prelude/1",
+          "https://liquipedia.net/pubg/Weibo_Gaming",
+          "https://liquipedia.net/pubg/PUBG_Champions_League/2026/Autumn"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "iliu",
+      "name": "iLiu",
+      "country": "CN",
+      "teams": [
+        "TIAN",
+        "WBG"
+      ],
+      "aliases": [
+        "iL1u",
+        "iL1u419"
+      ],
+      "source": "https://liquipedia.net/pubg/Tianba",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "iLiu",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "现役",
+        "birthday": "2003-04-19",
+        "pgcTotal": 0,
+        "team": "WBG",
+        "worldChamps": 0,
+        "image": "./images/players/iLiu.png",
+        "teamImage": "./images/teams/WBG.png"
+      },
+      "note": "名单 iLiu 对应赛事 ID iL1u；保留原始拼写。 战队/赛事阵容页交叉核对；只收录已确认的经历，完整履历可能未全。",
+      "verification": {
+        "status": "roster_verified",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/Tianba",
+          "https://liquipedia.net/pubg/PUBG_Champions_League/2026/Autumn"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "suix1ngkk",
+      "name": "SuiX1ngKK",
+      "country": "CN",
+      "teams": [
+        "SMS",
+        "ZCG",
+        "LGD",
+        "JSG",
+        "CTG",
+        "WBG"
+      ],
+      "aliases": [
+        "iceSuiX1ngKK",
+        "SuiX1ngKzK",
+        "SuiX1ngKK-",
+        "SuiX1ngiCoco"
+      ],
+      "source": "https://liquipedia.net/pubg/BOSS_Training_Camp/2023/Season_5/Phase_5",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "SuiX1ngKK",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "现役",
+        "birthday": "2004-09-16",
+        "pgcTotal": 0,
+        "team": "WBG",
+        "worldChamps": 0,
+        "image": "./images/players/SuiX1ngKK.png",
+        "teamImage": "./images/teams/WBG.png"
+      },
+      "note": "曾使用 iceSuiX1ngKK、SuiX1ngKK-、SuiX1ngiCoco 和 SuiX1ngKzK 参赛。2026 PGS 代表 CTG，2026 PCL 秋季赛代表 WBG。",
+      "verification": {
+        "status": "roster_verified",
+        "checkedAt": "2026-11-04",
+        "sources": [
+          "https://pubgesports.com/en/players/1149",
+          "https://liquipedia.net/pubg/PUBG_Champions_League/2024/Spring",
+          "https://liquipedia.net/pubg/Esports_World_Cup/2024/China_Qualifier",
+          "https://liquipedia.net/pubg/BOSS_Training_Camp/2023/Season_5/Phase_5",
+          "https://liquipedia.net/pubg/LGD_Gaming",
+          "https://liquipedia.net/pubg/PUBG_Champions_League/2026/Autumn"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "rkbro",
+      "name": "RKBro",
+      "country": "CN",
+      "teams": [
+        "WBG",
+        "JDG"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/PUBG_Champions_League/2026/Autumn",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "RKBro",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "现役",
+        "birthday": "2004-02-16",
+        "pgcTotal": 0,
+        "team": "WBG",
+        "worldChamps": 0,
+        "image": "./images/players/RKBro.png",
+        "teamImage": "./images/teams/WBG.png"
+      },
+      "note": "战队/赛事阵容页交叉核对；只收录已确认的经历，完整履历可能未全。",
+      "verification": {
+        "status": "roster_verified",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/PUBG_Champions_League/2026/Autumn",
+          "https://liquipedia.net/pubg/JD_Gaming"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "doum",
+      "name": "DouM",
+      "country": "CN",
+      "teams": [
+        "VC",
+        "JT"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/VC_Gaming",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "DouM",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "birthday": "2001-02-28",
+        "pgcTotal": 1,
+        "team": "ZCG",
+        "worldChamps": 0,
+        "image": "./images/players/DouM.png",
+        "teamImage": "./images/teams/ZCG.png"
+      },
+      "note": "ZCG、DDT、LGD 的教练任职不计入选手历史效力。 战队/赛事阵容页交叉核对；只收录已确认的经历，完整履历可能未全。",
+      "verification": {
+        "status": "roster_verified",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/VC_Gaming"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "tide",
+      "name": "Tide",
+      "country": "CN",
+      "teams": [
+        "VC",
+        "FPX",
+        "4AM",
+        "MQ"
+      ],
+      "aliases": [
+        "Tidevice"
+      ],
+      "source": "https://liquipedia.net/pubg/VC_Gaming",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "Tide",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "age": 27,
+        "pgcTotal": 1,
+        "team": "MQ",
+        "worldChamps": 0,
+        "image": "./images/players/Tide.png",
+        "teamImage": "./images/teams/MQ.png"
+      },
+      "note": "Tidevice 与 Tide 为同一 Li Qingwu；不把同队另一位 paopao 混为 PaoPao。 战队/赛事阵容页交叉核对；只收录已确认的经历，完整履历可能未全。",
+      "verification": {
+        "status": "roster_verified",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/VC_Gaming",
+          "https://liquipedia.net/pubg/Four_Angry_Men"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    },
+    {
+      "id": "djboy",
+      "name": "DJBOY",
+      "country": "CN",
+      "teams": [
+        "VC"
+      ],
+      "aliases": [],
+      "source": "https://liquipedia.net/pubg/VC_Gaming",
+      "origin": "pcl_provided",
+      "sourceRecord": {
+        "playerId": "DJBOY",
+        "country": "中国",
+        "area": "亚洲",
+        "careerState": "退役",
+        "birthday": "1995-07-16",
+        "pgcTotal": 1,
+        "team": "VC",
+        "worldChamps": 0,
+        "image": "./images/players/DJBOY.png",
+        "teamImage": "./images/teams/VC.png"
+      },
+      "note": "战队/赛事阵容页交叉核对；只收录已确认的经历，完整履历可能未全。",
+      "verification": {
+        "status": "roster_verified",
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "https://liquipedia.net/pubg/VC_Gaming",
+          "https://liquipedia.net/pubg/PUBG_Champions_League/2020/Spring"
+        ],
+        "scope": "只计作为选手的正式、替补、试训、租借效力；不计教练、主播、纯不活跃任职。"
+      }
+    }
+  ],
+  "logoAssets": [
+    {
+      "file": "TEAM LOGO/17.png",
+      "tag": "17",
+      "teamId": "17",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/4AM.png",
+      "tag": "4AM",
+      "teamId": "4AM",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/ACE.png",
+      "tag": "ACE",
+      "teamId": "ACE",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/AGAL.png",
+      "tag": "AL",
+      "teamId": "AL",
+      "historical": true
+    },
+    {
+      "file": "TEAM LOGO/AL.png",
+      "tag": "AL",
+      "teamId": "AL",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/BB.png",
+      "tag": "BB",
+      "teamId": "BB",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/BGP.png",
+      "tag": "BGP",
+      "teamId": "BGP",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/BRU.png",
+      "tag": "BRU",
+      "teamId": "BRU",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/CCG.png",
+      "tag": "CCG",
+      "teamId": "CCG",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/CES.png",
+      "tag": "CES",
+      "teamId": "CES",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/COC.png",
+      "tag": "COC",
+      "teamId": "COC",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/CR.png",
+      "tag": "CR",
+      "teamId": "CR",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/CTG.png",
+      "tag": "CTG",
+      "teamId": "CTG",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/DAY.png",
+      "tag": "DAY",
+      "teamId": "DAY",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/DIG.png",
+      "tag": "DIG",
+      "teamId": "DIG",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/DK.png",
+      "tag": "DK",
+      "teamId": "DK",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/DNS.png",
+      "tag": "DNS",
+      "teamId": "DNS",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/DNW.png",
+      "tag": "DNW",
+      "teamId": "DNW",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/EA.png",
+      "tag": "EA",
+      "teamId": "EA",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/EDG.png",
+      "tag": "EDG",
+      "teamId": "EDG",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/EMT.png",
+      "tag": "EMT",
+      "teamId": "EMT",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/EU.png",
+      "tag": "EU",
+      "teamId": "EU",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/FaZe.png",
+      "tag": "FAZE",
+      "teamId": "FAZE",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/FLC.png",
+      "tag": "FLC",
+      "teamId": "FLC",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/FOR.png",
+      "tag": "FOR",
+      "teamId": "FOR",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/FS.png",
+      "tag": "FS",
+      "teamId": "FS",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/FUR.png",
+      "tag": "FUR",
+      "teamId": "FUR",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/FUT.png",
+      "tag": "FUT",
+      "teamId": "FUT",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/GAM.png",
+      "tag": "GAM",
+      "teamId": "GAM",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/GEN.png",
+      "tag": "GEN",
+      "teamId": "GEN",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/GK.png",
+      "tag": "GK",
+      "teamId": "GK",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/GSW.png",
+      "tag": "GSW",
+      "teamId": "GSW",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/IFTY.png",
+      "tag": "IFTY",
+      "teamId": "IFTY",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/JDG.png",
+      "tag": "JDG",
+      "teamId": "JDG",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/LG.png",
+      "tag": "LG",
+      "teamId": "LG",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/LGCY.png",
+      "tag": "LGCY",
+      "teamId": "LGCY",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/LGD.png",
+      "tag": "LGD",
+      "teamId": "LGD",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/LYG.png",
+      "tag": "LYG",
+      "teamId": "LYG",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/LZR.png",
+      "tag": "LZR",
+      "teamId": "LZR",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/MAD.png",
+      "tag": "MAD",
+      "teamId": "MAD",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/MB.png",
+      "tag": "MB",
+      "teamId": "MB",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/MCG.png",
+      "tag": "MCG",
+      "teamId": "MCG",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/MITH.png",
+      "tag": "MITH",
+      "teamId": "MITH",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/NAVI.png",
+      "tag": "NAVI",
+      "teamId": "NAVI",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/NEXT.png",
+      "tag": "NEXT",
+      "teamId": "NEXT",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/NH.png",
+      "tag": "NH",
+      "teamId": "NH",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/NMSS.png",
+      "tag": "NMSS",
+      "teamId": "NMSS",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/OMG.png",
+      "tag": "OMG",
+      "teamId": "OMG",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/PeRo.png",
+      "tag": "PERO",
+      "teamId": "PERO",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/QM.png",
+      "tag": "QM",
+      "teamId": "QM",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/R8.png",
+      "tag": "R8",
+      "teamId": "R8",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/RNG.png",
+      "tag": "RNG",
+      "teamId": "RNG",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/S8UL.png",
+      "tag": "S8UL",
+      "teamId": "S8UL",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/SE.png",
+      "tag": "SE",
+      "teamId": "SE",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/SP.png",
+      "tag": "SP",
+      "teamId": "SP",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/SQ.png",
+      "tag": "SQ",
+      "teamId": "SQ",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/SSG.png",
+      "tag": "SSG",
+      "teamId": "SSG",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/STK.png",
+      "tag": "STK",
+      "teamId": "STK",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/T1.png",
+      "tag": "T1",
+      "teamId": "T1",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/T5.png",
+      "tag": "T5",
+      "teamId": "T5",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/TE.png",
+      "tag": "TE",
+      "teamId": "TE",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/TIAN.png",
+      "tag": "TIAN",
+      "teamId": "TIAN",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/TKL.png",
+      "tag": "TKL",
+      "teamId": "TC",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/TL.png",
+      "tag": "TL",
+      "teamId": "TL",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/TMA.png",
+      "tag": "TMA",
+      "teamId": "TMA",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/TSM.png",
+      "tag": "TSM",
+      "teamId": "TSM",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/TWIS.png",
+      "tag": "TWIS",
+      "teamId": "TWIS",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/TYL.png",
+      "tag": "TYL",
+      "teamId": "TYL",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/V7.png",
+      "tag": "V7",
+      "teamId": "V7",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/VC(越南).png",
+      "tag": "VC(越南)",
+      "teamId": "VC(越南)",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/VIT.png",
+      "tag": "VIT",
+      "teamId": "VIT",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/VP.png",
+      "tag": "VP",
+      "teamId": "VP",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/WBG.png",
+      "tag": "WBG",
+      "teamId": "WBG",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/WC.png",
+      "tag": "WC",
+      "teamId": "WC",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/WIN.png",
+      "tag": "WOD",
+      "teamId": "WOD",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/WOO.png",
+      "tag": "WOO",
+      "teamId": "WOO",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/ZCG.png",
+      "tag": "ZCG",
+      "teamId": "ZCG",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/ZK.png",
+      "tag": "ZK",
+      "teamId": "ZK",
+      "historical": false
+    },
+    {
+      "file": "TEAM LOGO/VC.png",
+      "tag": "VC",
+      "teamId": "VC",
+      "historical": false
+    }
+  ],
+  "assetRevision": "logos-2026-10-17"
+}
