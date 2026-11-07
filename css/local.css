@@ -165,7 +165,7 @@ input,textarea { caret-color:var(--a-accent-ink); }
     border-bottom:1px solid var(--ln-soft)
 }
 
-/* Floating music stays draggable over navigation; an open settings panel stays above it. */
+/* Keep an open settings panel above the page controls. */
 .top-header-bar:has(.preferences-panel:not([hidden])) {
     z-index:100
 }

@@ -20,5 +20,4 @@ body.grid-page { height: 100dvh; min-height: 0; overflow: hidden; padding-bottom
     html.mobile-ready .grid-page .site-nav { gap: 1px; }
     html.mobile-ready .grid-page .nav-btn-capsule { padding: 6px; gap: 3px; }
     html.mobile-ready .grid-page .nav-btn-capsule span { font-size: 10px; }
-    html.mobile-ready .grid-page .music-player { bottom: 12px; }
 }
