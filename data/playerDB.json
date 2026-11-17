@@ -515,7 +515,18 @@
     "image": "./images/players/LinShu.png",
     "teamImage": "./images/teams/Tianba.png"
   },
-
+  {
+    "playerId": "Hang2y",
+    "country": "中国",
+    "area": "亚洲",
+    "careerState": "退役",
+    "age": 26,
+    "pgcTotal": 1,
+    "team": "CTG",
+    "worldChamps": 0,
+    "image": "./images/players/Hang2y.png",
+    "teamImage": "./images/teams/CTG.png"
+  },
 
   {
     "playerId": "EEND",
